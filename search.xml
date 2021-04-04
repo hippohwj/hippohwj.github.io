@@ -1,6 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Personal Configuration for Mac and Apps</title>
+    <url>/2017/01/30/Personal-Configuration-for-Mac-and-Apps/</url>
+    <content><![CDATA[<h2 id="continue-updating">Continue Updating</h2>
+<p>Here are my configurations and settings for mac and apps in order to reach a higher productivity. Some config files can be found in the following repo: <a href="https://github.com/hippo-jessy/MacAndAppsConfig" target="_blank" rel="noopener">https://github.com/hippo-jessy/MacAndAppsConfig</a></p>
+<h2 id="current-environments">Current Environments</h2>
+<p>OS: Mac OS X EI Capitan(version 10.11.6)</p>
+<a id="more"></a>
+<h2 id="useful-apps-and-tools-for-mac">Useful Apps and Tools for Mac</h2>
+<ul>
+<li>
+<p><strong>Karabiner &amp;&amp; Seil</strong></p>
+<ul>
+<li>
+<p><strong>Karabiner:</strong></p>
+<p>This app can be used to remap keyboard and shortcut. I take use of it to remap “ctrl + K / J / H / L” to Arrow keys ( Up / Down / Left / Right ). My personal config file is right here:</p>
+<p><a href="https://github.com/hippo-jessy/MacAndAppsConfig/blob/master/Karabiner/private.xml" target="_blank" rel="noopener">https://github.com/hippo-jessy/MacAndAppsConfig/blob/master/Karabiner/private.xml</a></p>
+</li>
+<li>
+<p><strong>Seil:</strong></p>
+<p>I use this app only for its functionality to remap Caps Lock to esc. It’s pretty much helpful when editing in vim mode. Although most remapping actions can be performed by Karabiner, it can do nothing with this special key ( Karabiner is currently working to support MacOS Sierra and trying to fully integrate Seil, you can <a href="https://github.com/tekezo/Karabiner-Elements" target="_blank" rel="noopener">check it here</a> ).</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>iStat Menus</strong></p>
+<p>This one is basically a profiling tool which show dynamic status of CPU, memory, disks, etc. All these information is presented in the menubar and in a pleasant way as the following picture shown:</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Personal%20Configuration%20for%20Mac%20and%20Apps.png" alt=" Personal Configuration for Mac and Apps"></p>
+</li>
+</ul>
+<h2 id="keyboard-and-shortcut-remapping">Keyboard and Shortcut Remapping</h2>
+<ul>
+<li>
+<p><strong>Disable shortcut CMD + H systemwide &quot; hide window &quot; functionality and reassign it to different action in specific apps</strong>. No additional tool is needed to fulfil this remapping process and try to follow these steps:</p>
+<ol>
+<li>
+<p>Go to <em>System Preference</em> and locate <em>KeyBoard</em></p>
+</li>
+<li>
+<p>Go to <em>Keyboard Shortcuts</em> sub tab at the top</p>
+</li>
+<li>
+<p>Choose <em>App Shortcuts</em> on the list at left side</p>
+</li>
+<li>
+<p>Click on the + sign below the list to the right</p>
+</li>
+<li>
+<p>See the following screenshot, where I’ve reassigned CMD+H  to “left with selection” action in IntelliJ IDEA exclusively.</p>
+<p><em>Tips: choose “All controls” for pressing Tab could also fast your keyboard operation.</em></p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Personal%20Configuration%20for%20Mac%20and%20Apps_1.png" alt="Personal Configuration for Mac and Apps_1"></p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Remap Ctrl + H / J / K / L to Arrow keys ( left / down / up/ right )</strong> considering anti human location of Arrow keys. Take good use of <strong>Karabiner</strong> to achieve this task as I mentioned before.</p>
+</li>
+<li>
+<p><strong>Remap caps lock to esc</strong> using <strong>Seil</strong> to speed up vim mode editing.</p>
+</li>
+<li>
+<p><strong>Remember to switch Mac Function Keys ( such as F1, F2 ) to standard function keys</strong> in that many apps like browsers, IDEs may take these keys as part of shortcuts.</p>
+</li>
+</ul>
+<h2 id="settings-for-intellij-idea">Settings for IntelliJ IDEA</h2>
+<p>I changed most of keymap settings of IntelliJ IDEA based on my own habits and most of these changed shortcuts are easier to remember. You can find the settings file here:  <a href="https://github.com/hippo-jessy/MacAndAppsConfig/tree/master/IntelliJ_IDEA" target="_blank" rel="noopener">settings exported</a></p>
+<p><strong>To Be Continued …</strong></p>
+]]></content>
+      <categories>
+        <category>Configuration</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>Config</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Charset and Encoding</title>
     <url>/2017/01/17/Charset-and-Encoding/</url>
     <content><![CDATA[<p>最近重新整理一遍 <strong>Java</strong> 基础，在写到注释相关的内容时发现自己对各种字符编码问题一直似懂非懂。相信很多人都听说过ASCII, Unicode, GB2312, UTF-8之类的编码，但是对于它们的印象可能仅仅停留在知道它们是不同的字符编码，使用不当可能会导致乱码的层面上。</p>
@@ -154,87 +230,41 @@
         <category>Misc</category>
       </categories>
       <tags>
-        <tag>Encoding</tag>
         <tag>Charset</tag>
+        <tag>Encoding</tag>
         <tag>Unicode</tag>
         <tag>UTF-8</tag>
         <tag>UTF-16</tag>
       </tags>
   </entry>
   <entry>
-    <title>Personal Configuration for Mac and Apps</title>
-    <url>/2017/01/30/Personal-Configuration-for-Mac-and-Apps/</url>
-    <content><![CDATA[<h2 id="continue-updating">Continue Updating</h2>
-<p>Here are my configurations and settings for mac and apps in order to reach a higher productivity. Some config files can be found in the following repo: <a href="https://github.com/hippo-jessy/MacAndAppsConfig" target="_blank" rel="noopener">https://github.com/hippo-jessy/MacAndAppsConfig</a></p>
-<h2 id="current-environments">Current Environments</h2>
-<p>OS: Mac OS X EI Capitan(version 10.11.6)</p>
+    <title>【Java You Don&#39;t Know - Item 1】为什么long类型的变量在赋值时数值常量要加“L”</title>
+    <url>/2017/01/21/%E3%80%90Java-You-Don-t-Know-Item-1%E3%80%91%E4%B8%BA%E4%BB%80%E4%B9%88long%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8F%98%E9%87%8F%E5%9C%A8%E8%B5%8B%E5%80%BC%E6%97%B6%E6%95%B0%E5%80%BC%E5%B8%B8%E9%87%8F%E8%A6%81%E5%8A%A0%E2%80%9CL%E2%80%9D/</url>
+    <content><![CDATA[<p>下面这段代码大家应该多很熟悉，也都知道Java赋值long类型变量时，一定要在常量后面加上“L”或“l”。这篇笔记就简单展开讨论其原因。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">long</span> a = <span class="number">500</span>;	<span class="comment">//赋值500，编译通过</span></span><br><span class="line"><span class="keyword">long</span> b = <span class="number">5000000000</span>;	<span class="comment">//赋值50亿，编译报错</span></span><br><span class="line"><span class="keyword">long</span> c = <span class="number">5000000000L</span>;	<span class="comment">//赋值50亿，编译通过</span></span><br></pre></td></tr></table></figure>
+<p>​	这里其实涉及到一个细节，Java默认的整数常量类型为int。因此我们赋值变量时，不管变量是什么类型，赋值等号右边的数字默认先使用int保存，然后赋值时再根据变量类型进行自动类型转换。比如 <code>byte a = 5</code> 实际上是将int类型的‘5’，通过自动类型转换为byte类型的变量a。由于long类型的变量可能保存远远大于int表示范围的数值，因此可能出现大于int表示范围的数值常量默认保存在int中的情况。具体参照上述code block中的第二行，该赋值语句执行的过程是：</p>
 <a id="more"></a>
-<h2 id="useful-apps-and-tools-for-mac">Useful Apps and Tools for Mac</h2>
-<ul>
-<li>
-<p><strong>Karabiner &amp;&amp; Seil</strong></p>
-<ul>
-<li>
-<p><strong>Karabiner:</strong></p>
-<p>This app can be used to remap keyboard and shortcut. I take use of it to remap “ctrl + K / J / H / L” to Arrow keys ( Up / Down / Left / Right ). My personal config file is right here:</p>
-<p><a href="https://github.com/hippo-jessy/MacAndAppsConfig/blob/master/Karabiner/private.xml" target="_blank" rel="noopener">https://github.com/hippo-jessy/MacAndAppsConfig/blob/master/Karabiner/private.xml</a></p>
-</li>
-<li>
-<p><strong>Seil:</strong></p>
-<p>I use this app only for its functionality to remap Caps Lock to esc. It’s pretty much helpful when editing in vim mode. Although most remapping actions can be performed by Karabiner, it can do nothing with this special key ( Karabiner is currently working to support MacOS Sierra and trying to fully integrate Seil, you can <a href="https://github.com/tekezo/Karabiner-Elements" target="_blank" rel="noopener">check it here</a> ).</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>iStat Menus</strong></p>
-<p>This one is basically a profiling tool which show dynamic status of CPU, memory, disks, etc. All these information is presented in the menubar and in a pleasant way as the following picture shown:</p>
-<p><img src="http://ojnnon64z.bkt.clouddn.com/Personal%20Configuration%20for%20Mac%20and%20Apps.png" alt=" Personal Configuration for Mac and Apps"></p>
-</li>
-</ul>
-<h2 id="keyboard-and-shortcut-remapping">Keyboard and Shortcut Remapping</h2>
-<ul>
-<li>
-<p><strong>Disable shortcut CMD + H systemwide &quot; hide window &quot; functionality and reassign it to different action in specific apps</strong>. No additional tool is needed to fulfil this remapping process and try to follow these steps:</p>
-<ol>
-<li>
-<p>Go to <em>System Preference</em> and locate <em>KeyBoard</em></p>
-</li>
-<li>
-<p>Go to <em>Keyboard Shortcuts</em> sub tab at the top</p>
-</li>
-<li>
-<p>Choose <em>App Shortcuts</em> on the list at left side</p>
-</li>
-<li>
-<p>Click on the + sign below the list to the right</p>
-</li>
-<li>
-<p>See the following screenshot, where I’ve reassigned CMD+H  to “left with selection” action in IntelliJ IDEA exclusively.</p>
-<p><em>Tips: choose “All controls” for pressing Tab could also fast your keyboard operation.</em></p>
-<p><img src="http://ojnnon64z.bkt.clouddn.com/Personal%20Configuration%20for%20Mac%20and%20Apps_1.png" alt="Personal Configuration for Mac and Apps_1"></p>
-</li>
-</ol>
-</li>
-<li>
-<p><strong>Remap Ctrl + H / J / K / L to Arrow keys ( left / down / up/ right )</strong> considering anti human location of Arrow keys. Take good use of <strong>Karabiner</strong> to achieve this task as I mentioned before.</p>
-</li>
-<li>
-<p><strong>Remap caps lock to esc</strong> using <strong>Seil</strong> to speed up vim mode editing.</p>
-</li>
-<li>
-<p><strong>Remember to switch Mac Function Keys ( such as F1, F2 ) to standard function keys</strong> in that many apps like browsers, IDEs may take these keys as part of shortcuts.</p>
-</li>
-</ul>
-<h2 id="settings-for-intellij-idea">Settings for IntelliJ IDEA</h2>
-<p>I changed most of keymap settings of IntelliJ IDEA based on my own habits and most of these changed shortcuts are easier to remember. You can find the settings file here:  <a href="https://github.com/hippo-jessy/MacAndAppsConfig/tree/master/IntelliJ_IDEA" target="_blank" rel="noopener">settings exported</a></p>
-<p><strong>To Be Continued …</strong></p>
+<p>​	1. 现将50亿数值保存为默认的整数常量类型int；</p>
+<p>​	2. 将该int类型的数值通过自动转型赋值给long类型的变量b;</p>
+<p>​	实际上在执行第一步时就已经出错了，int的表示范围大概在正负21亿左右，50亿远远出超出该范围。具体报错信息如下：</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Java/Java-Basics/Misc/%E4%B8%BA%E4%BB%80%E4%B9%88Java-long%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8F%98%E9%87%8F%E5%9C%A8%E8%B5%8B%E5%80%BC%E6%97%B6%E6%95%B0%E5%80%BC%E5%B8%B8%E9%87%8F%E8%A6%81%E5%8A%A0%E2%80%9CL%E2%80%9D/error1.png" alt="error1"></p>
+<p>​	这种报错和赋值号左边是否是long类型无关，只与数值常量大小是否超出int表示范围有关。比如 <code>byte a = 5000000000</code> 同样会报出 “integer number too large” 的错误。如果想要保存类似50亿这样的大数值，解决方法便是在数值常量后加上“L”, 这样使得Java不再默认使用int类型保存数字而是改为直接用long类型来保存。如此一来，对于 <code>long c = 5000000000L</code> 这样的赋值语句当然就不会再报错，但是如果是 <code>byte a = 5000000000L</code> 呢？这样在赋值语句执行的两个步骤中，虽然第一步数值常量默认保存为long类型不会报错了，但是第二步将long类型自动转型给byte类型却会出现精度丢失（50亿远大于byte的表示范围），因此会报出第二种错误：</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Java/Java-Basics/Misc/%E4%B8%BA%E4%BB%80%E4%B9%88Java-long%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8F%98%E9%87%8F%E5%9C%A8%E8%B5%8B%E5%80%BC%E6%97%B6%E6%95%B0%E5%80%BC%E5%B8%B8%E9%87%8F%E8%A6%81%E5%8A%A0%E2%80%9CL%E2%80%9D/error1.png" alt="error2"></p>
+<p>​	很明显这是一个类型转换的错误，我们知道类型转换分为自动类型转换和强制类型转换，自动类型转换只能是由容量小的类型向容量大的类型转换（向上转型，这里说的<strong>容量是指表数范围而不是指字节数目</strong>，比如8字节的long可以自动转型为4字节的float），否则则需要强制类型转换。此时由long向byte显然无法进行自动类型转换，因此报出incompatible types的错误。这里又引出了第二个问题，为什么 <code>byte a = 5</code>  这样的赋值语句不会报出类型转换的错误呢？常量数值5也是默认保存为int类型，此时int转byte是向下转型，按道理是应该强制类型转换的。这里其实涉及到自动类型转换的一个特例：**整型常量以默认类型int直接赋值给byte, short, char等类型变量时，只要该整型常量不超过对应变量类型的表数范围时，是可以进行自动类型转换的。**更深一层的原因可能是由于JVM内部实际上是将char, byte, short扩展成int处理的，这里暂时不做深究。</p>
+<p>​	需要强调的是，必须得是<strong>整型常量</strong>而且必须是<strong>直接赋值</strong>才能进行上述的特例转换。举个反例加深印象：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">byte</span> b = a;</span><br></pre></td></tr></table></figure>
+<p>​	此时会报出incompatible types的错误，简单来说，可以这样理解：编译器在编译时首先如果发现右边为int类型<strong>并且为常量</strong>，则会判断该常量是否在被赋值变量类型表数范围内，如果在则自动转型，不在，则报错要求强制转型。如果发现右边为变量，如果满足向上转型的标准则可自动转型，否则报错要求强制转型。下面还有一个类似的小例子：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">byte</span> a = <span class="number">1</span>, b = <span class="number">2</span>, c, d;</span><br><span class="line">c = <span class="number">1</span> + <span class="number">2</span>;	<span class="comment">//编译通过</span></span><br><span class="line">d = a + b;	<span class="comment">//报错，incompatible types</span></span><br></pre></td></tr></table></figure>
+<p>​	当算数运算操作对象是byte, short, char时，Java会将操作数提升为int类型来处理，因此第三行右边为int类型，然而编译器在编译过程中无法得知两个变量的相加结果，因此无法进一步判断是否在byte的范围内，因此无法自动转型；相反第二行代码是两个常量int相加，编译阶段就可以得到结果为3，在byte的范围内，自动转型。</p>
+<h4 id="references">References</h4>
+<p>[1] [<a href="http://tieba.baidu.com/p/2620126491?pn=2" target="_blank" rel="noopener">http://tieba.baidu.com/p/2620126491?pn=2</a></p>
 ]]></content>
       <categories>
-        <category>Configuration</category>
+        <category>Java</category>
+        <category>Java You Don&#39;t Know</category>
       </categories>
       <tags>
-        <tag>Mac</tag>
-        <tag>Config</tag>
+        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -401,38 +431,8 @@
         <category>Design Pattern</category>
       </categories>
       <tags>
+        <tag>Java</tag>
         <tag>Design Pattern</tag>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Java You Don&#39;t Know - Item 1】为什么long类型的变量在赋值时数值常量要加“L”</title>
-    <url>/2017/01/21/%E3%80%90Java-You-Don-t-Know-Item-1%E3%80%91%E4%B8%BA%E4%BB%80%E4%B9%88long%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8F%98%E9%87%8F%E5%9C%A8%E8%B5%8B%E5%80%BC%E6%97%B6%E6%95%B0%E5%80%BC%E5%B8%B8%E9%87%8F%E8%A6%81%E5%8A%A0%E2%80%9CL%E2%80%9D/</url>
-    <content><![CDATA[<p>下面这段代码大家应该多很熟悉，也都知道Java赋值long类型变量时，一定要在常量后面加上“L”或“l”。这篇笔记就简单展开讨论其原因。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">long</span> a = <span class="number">500</span>;	<span class="comment">//赋值500，编译通过</span></span><br><span class="line"><span class="keyword">long</span> b = <span class="number">5000000000</span>;	<span class="comment">//赋值50亿，编译报错</span></span><br><span class="line"><span class="keyword">long</span> c = <span class="number">5000000000L</span>;	<span class="comment">//赋值50亿，编译通过</span></span><br></pre></td></tr></table></figure>
-<p>​	这里其实涉及到一个细节，Java默认的整数常量类型为int。因此我们赋值变量时，不管变量是什么类型，赋值等号右边的数字默认先使用int保存，然后赋值时再根据变量类型进行自动类型转换。比如 <code>byte a = 5</code> 实际上是将int类型的‘5’，通过自动类型转换为byte类型的变量a。由于long类型的变量可能保存远远大于int表示范围的数值，因此可能出现大于int表示范围的数值常量默认保存在int中的情况。具体参照上述code block中的第二行，该赋值语句执行的过程是：</p>
-<a id="more"></a>
-<p>​	1. 现将50亿数值保存为默认的整数常量类型int；</p>
-<p>​	2. 将该int类型的数值通过自动转型赋值给long类型的变量b;</p>
-<p>​	实际上在执行第一步时就已经出错了，int的表示范围大概在正负21亿左右，50亿远远出超出该范围。具体报错信息如下：</p>
-<p><img src="http://ojnnon64z.bkt.clouddn.com/Java/Java-Basics/Misc/%E4%B8%BA%E4%BB%80%E4%B9%88Java-long%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8F%98%E9%87%8F%E5%9C%A8%E8%B5%8B%E5%80%BC%E6%97%B6%E6%95%B0%E5%80%BC%E5%B8%B8%E9%87%8F%E8%A6%81%E5%8A%A0%E2%80%9CL%E2%80%9D/error1.png" alt="error1"></p>
-<p>​	这种报错和赋值号左边是否是long类型无关，只与数值常量大小是否超出int表示范围有关。比如 <code>byte a = 5000000000</code> 同样会报出 “integer number too large” 的错误。如果想要保存类似50亿这样的大数值，解决方法便是在数值常量后加上“L”, 这样使得Java不再默认使用int类型保存数字而是改为直接用long类型来保存。如此一来，对于 <code>long c = 5000000000L</code> 这样的赋值语句当然就不会再报错，但是如果是 <code>byte a = 5000000000L</code> 呢？这样在赋值语句执行的两个步骤中，虽然第一步数值常量默认保存为long类型不会报错了，但是第二步将long类型自动转型给byte类型却会出现精度丢失（50亿远大于byte的表示范围），因此会报出第二种错误：</p>
-<p><img src="http://ojnnon64z.bkt.clouddn.com/Java/Java-Basics/Misc/%E4%B8%BA%E4%BB%80%E4%B9%88Java-long%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8F%98%E9%87%8F%E5%9C%A8%E8%B5%8B%E5%80%BC%E6%97%B6%E6%95%B0%E5%80%BC%E5%B8%B8%E9%87%8F%E8%A6%81%E5%8A%A0%E2%80%9CL%E2%80%9D/error1.png" alt="error2"></p>
-<p>​	很明显这是一个类型转换的错误，我们知道类型转换分为自动类型转换和强制类型转换，自动类型转换只能是由容量小的类型向容量大的类型转换（向上转型，这里说的<strong>容量是指表数范围而不是指字节数目</strong>，比如8字节的long可以自动转型为4字节的float），否则则需要强制类型转换。此时由long向byte显然无法进行自动类型转换，因此报出incompatible types的错误。这里又引出了第二个问题，为什么 <code>byte a = 5</code>  这样的赋值语句不会报出类型转换的错误呢？常量数值5也是默认保存为int类型，此时int转byte是向下转型，按道理是应该强制类型转换的。这里其实涉及到自动类型转换的一个特例：**整型常量以默认类型int直接赋值给byte, short, char等类型变量时，只要该整型常量不超过对应变量类型的表数范围时，是可以进行自动类型转换的。**更深一层的原因可能是由于JVM内部实际上是将char, byte, short扩展成int处理的，这里暂时不做深究。</p>
-<p>​	需要强调的是，必须得是<strong>整型常量</strong>而且必须是<strong>直接赋值</strong>才能进行上述的特例转换。举个反例加深印象：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">byte</span> b = a;</span><br></pre></td></tr></table></figure>
-<p>​	此时会报出incompatible types的错误，简单来说，可以这样理解：编译器在编译时首先如果发现右边为int类型<strong>并且为常量</strong>，则会判断该常量是否在被赋值变量类型表数范围内，如果在则自动转型，不在，则报错要求强制转型。如果发现右边为变量，如果满足向上转型的标准则可自动转型，否则报错要求强制转型。下面还有一个类似的小例子：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">byte</span> a = <span class="number">1</span>, b = <span class="number">2</span>, c, d;</span><br><span class="line">c = <span class="number">1</span> + <span class="number">2</span>;	<span class="comment">//编译通过</span></span><br><span class="line">d = a + b;	<span class="comment">//报错，incompatible types</span></span><br></pre></td></tr></table></figure>
-<p>​	当算数运算操作对象是byte, short, char时，Java会将操作数提升为int类型来处理，因此第三行右边为int类型，然而编译器在编译过程中无法得知两个变量的相加结果，因此无法进一步判断是否在byte的范围内，因此无法自动转型；相反第二行代码是两个常量int相加，编译阶段就可以得到结果为3，在byte的范围内，自动转型。</p>
-<h4 id="references">References</h4>
-<p>[1] [<a href="http://tieba.baidu.com/p/2620126491?pn=2" target="_blank" rel="noopener">http://tieba.baidu.com/p/2620126491?pn=2</a></p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>Java You Don&#39;t Know</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -474,6 +474,139 @@
       </categories>
       <tags>
         <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【深入理解Java虚拟机-0】思维导图汇总</title>
+    <url>/2017/02/03/%E3%80%90%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA-0%E3%80%91%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<p>此篇博文主要用于汇总JVM初级学习阶段的思维导图，主要根据《深入理解Java虚拟机》书中的脉络，结合JVM Specification中的知识点进行拓展和总结。思维导图通过<strong>iThoughtsX 4.3</strong>绘制，文中会提供原始格式文件(低于4.3版本的iThoughtsX可能无法打开原始文件)和导出的图片。由于有些章节的思维导图过大，我可能会进行拆分，但是尽量不会影响理解。</p>
+<p>内容有些杂乱，主要用作个人笔记整理，同时也希望这些思维导图能帮助大家更好地理解《深入理解Java虚拟机》(配合JVM Specification食用更佳）。有些导图目前还是半成品，暂时不会放上来，文章持续更新中。</p>
+<a id="more"></a>
+<h2 id="第二部分-自动内存管理">第二部分 自动内存管理</h2>
+<h3 id="第二章-java内存区域与内存溢出异常">第二章 Java内存区域与内存溢出异常</h3>
+<p>这一章节主要涉及三方面的内容：</p>
+<ul>
+<li>运行时数据区域</li>
+<li>HotSpot虚拟机对象的表示</li>
+<li>OutOfMemoryError的相关实践</li>
+</ul>
+<p>思维导图如下( 点击放大再放大😑 ) ：<img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Java%20Memory%20Area.pdf" alt></p>
+<p>iThoughtsX原格式文件地址:</p>
+<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Java%20Memory%20Area.itmz" target="_blank" rel="noopener">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】%5BMind%20Map%5D%20Java%20Memory%20Area.itmz</a></p>
+<h3 id="第三章-垃圾收集器与内存分配策略">第三章 垃圾收集器与内存分配策略</h3>
+<p><a href="http://qifuguang.me/2015/09/02/%5BJava%E5%B9%B6%E5%8F%91%E5%8C%85%E5%AD%A6%E4%B9%A0%E4%B8%83%5D%E8%A7%A3%E5%AF%86ThreadLocal/" target="_blank" rel="noopener">http://qifuguang.me/2015/09/02/[Java并发包学习七]解密ThreadLocal/</a></p>
+<h2 id="第三部分-虚拟机执行子系统">第三部分 虚拟机执行子系统</h2>
+<h3 id="第六章-类文件结构">第六章 类文件结构</h3>
+<p>这一章节思维导图拆分为两部分，第一部分是关于Class类文件结构的，第二部分是关于字节码指令简介的。由于第二部分知识点比较琐碎，目前还在考虑对此部分是否有制作思维导图的必要。首先献上第一部分思维导图 ( 点击放大再放大😑 ) ：<img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91Class%20File%20Mind%20Map.pdf" alt="Class File Mind Map"></p>
+<p>iThoughtsX原格式文件地址:</p>
+<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91Class%20File%20Mind%20Map.itmz" target="_blank" rel="noopener">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】Class%20File%20Mind%20Map.itmz</a></p>
+<h3 id="第七章-虚拟机类加载机制">第七章 虚拟机类加载机制</h3>
+<p>这一章节分为类加载机制以及类加载器两部分。</p>
+<h4 id="类加载机制">类加载机制</h4>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading%20.pdf?%20v=20170214" alt="Class Loading"></p>
+<p>iThoughtsX原格式文件地址:</p>
+<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading%20.itmz" target="_blank" rel="noopener">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】%5BMind%20Map%5D%20Class%20Loading%20.itmz</a></p>
+<h4 id="类加载器">类加载器</h4>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading_1%20.pdf?%20imageView2/3/w/400/h/400/q/75" alt></p>
+<p>iThoughtsX原格式文件地址:</p>
+<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading_1%20.itmz" target="_blank" rel="noopener">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】%5BMind%20Map%5D%20Class%20Loading_1%20.itmz</a></p>
+<h3 id="第八章-虚拟机字节码执行引擎">第八章 虚拟机字节码执行引擎</h3>
+<p>这一章节主要分为三个部分：</p>
+<ul>
+<li>
+<p>运行时栈帧结构</p>
+</li>
+<li>
+<p>方法调用</p>
+</li>
+<li>
+<p>基于栈的字节码解释执行引擎</p>
+</li>
+</ul>
+<p>这三部分都集中在下面这张图中进行总结：<img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20JVM%20Bytecode%20Execution%20Engine.pdf" alt></p>
+<p>iThoughtsX原格式文件地址:</p>
+<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20JVM%20Bytecode%20Execution%20Engine.itmz" target="_blank" rel="noopener">【Understanding%20the%20JVM】%5BMind%20Map%5D%20JVM%20Bytecode%20Execution%20Engine.itmz</a></p>
+<h2 id="第四部分-程序编译与代码优化">第四部分 程序编译与代码优化</h2>
+<p>敬请期待。。。😪</p>
+<h2 id="第五部分-高效并发">第五部分 高效并发</h2>
+<p>这一部分书中主要分为两个章节来讲解： Java内存模型与线程、线程安全与锁优化。但是《深入理解Java虚拟机》并没有用很大的篇幅来讲并发这一部分，因此还需结合《Java Concurrency in Practice》等书来加深理解。更多关于java并发的总结可以关注Java Primer系列的相关博文。</p>
+<h3 id="第十二章-java内存模型与线程">第十二章 Java内存模型与线程</h3>
+<h3 id="第十三章-线程安全与锁优化">第十三章 线程安全与锁优化</h3>
+]]></content>
+      <categories>
+        <category>JVM</category>
+        <category>深入理解Java虚拟机</category>
+      </categories>
+      <tags>
+        <tag>JVM</tag>
+        <tag>MindMap</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Spark概念模型-2】RDD &amp; Dependency &amp; 宽窄依赖划分</title>
+    <url>/2016/05/15/%E3%80%90Spark%E6%A6%82%E5%BF%B5%E6%A8%A1%E5%9E%8B-2%E3%80%91RDD-Dependency-%E5%AE%BD%E7%AA%84%E4%BE%9D%E8%B5%96%E5%88%92%E5%88%86/</url>
+    <content><![CDATA[<h2 id="rdd">RDD</h2>
+<p>RDD是由诸多partition所构成的分布式只读数据集以及相关算子的封装，它只是一个逻辑概念上的数据集而并非是一个将所有数据都载入内存的数据结构（这里只是简单提一下RDD，在另一篇博客详细讲解RDD的概念，本文重点在于Dependency）。</p>
+<h2 id="dependency">Dependency</h2>
+<p>Dependency描述了RDD之间的依赖关系，每个RDD内部都记录了它与其他RDD（parent RDD）的依赖关系。通过Dependency类的getParents(partitionId:Int)我们可以获取当前RDD的每个partition所依赖的parent partitions。</p>
+<a id="more"></a>
+<p>RDD之间的依赖关系可以分为Narrow Dependency和Shuffle(Wide) Dependency。到底应该如何区分RDD之间的关系是宽依赖还是窄依赖？</p>
+<p>这主要取决于parent RDD的一个partition被child RDD的多少个partition所利用：如果parent RDD的每一个partition最多只会被child RDD的一个partition利用，则父子RDD之间的关系为窄依赖，相反，如果被child RDD的多个partition利用，则为宽依赖。</p>
+<p>这种定义无疑是正确的，但是并不是很形象</p>
+<p>现在把每一条数据看做是一个带有序号和颜色的小球（序号可以重复），将partition看做是放小球的盒子（盒子也有序号且序号不重复），一个RDD是指一个持有多个盒子的人。每个人都有自己放置小球的策略，将partitioner看做是人将小球放置到盒子中的策略（比如常见的HashPartitioner)，而且每个人根据自己的职业都有自己对小球处理的喜好。现在进行盒子传递（一个人把盒子给另一个人）。传递盒子的人是父RDD,接受盒子的人是子RDD，由于接受盒子的人有自己的处理喜好和放置小球的策略，因此凡是进行了盒子传递必定会进行小球的处理和重新放置（相当于transformation）。</p>
+<blockquote>
+<p>“不同的算子会产生不同的RDD”，这句话其实并不是那么准确，我们知道每个RDD都有compute方法，但是不同的RDD对应的compute实现并不相同（如MappedRDD的compute方法里对每一条数据进行了map操作，相当于在RDD内部包含了算子定义的操作，详见<a href="../Spark%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/RDD%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90">RDD源码解析</a>）。因此，个人觉得这句话改成不同的RDD带有不同的算子更为恰当。同理，RDD中有一个属性partitioner，因此，分区策略也是RDD的固有属性。</p>
+</blockquote>
+<p>对应于现在的场景，不同的人根据自己的职业有不同的处理小球的喜好，且有自己放置小球的策略，对应于不同的RDD带有不同的算子，且传入了不同的partitioner。</p>
+<p>其实上面的比喻也可以帮助我们更好地理解RDD，如果我们想在一群人之间传递盒子以便让不同职业的人对盒子中的小球进行处理（此过程相当于将一系列partition中的数据用不同算子处理以得到目标结果），则对于每个人我们至少需要五个信息：当前人所持有的所有盒子的列表，当前人对小球的处理喜好，传递盒子给当前人的人是哪些人，当前人对小球的放置策略，以及当前人放置盒子的地点</p>
+<p>这恰好和<a href="./RDD%E7%9A%84%E6%A6%82%E5%BF%B5%E7%90%86%E8%A7%A3">RDD的概念理解</a>中提到过RDD类的五个重要特征相对应：<br>
+1、partitions的列表（“当前人”所持有的盒子列表)<br>
+2、compute方法来计算iterator（“当前人”对小球的处理喜好）<br>
+3、getDependencies(传递给“当前人”盒子的人有哪些)<br>
+4、partitioner（“当前人”放置小球的策略）<br>
+5、getPreferredLocations（“当前人”放置盒子的位置）</p>
+<p>现在有一个人持有多个箱子，他按照放置策略A放置好了小球，你可以选择让他把箱子传给下面不同职业的人</p>
+<p>将算子作用于小球的变化过程看做是如下操作：</p>
+<blockquote>
+<p>eg：<br>
+map() -&gt; 当做是给小球涂色 -&gt; 对应于MappedRDD，相当于将盒子传递给了一个画匠</p>
+</blockquote>
+<blockquote>
+<p>filter() -&gt; 当做是从盒子里取出小球扔掉  -&gt; 对应于FilteredRDD，相当于将盒子传递给了一个投手。。。想不到更合适的职业了。。。</p>
+</blockquote>
+<blockquote>
+<p>union(rdd) -&gt; 当做是将多个小盒子合成一个大盒子（所有被合并小盒子的编号均可看做合并后大盒子的编号）-&gt; 对应于UnionRDD，相当于将盒子传递给了一个装箱工人</p>
+<p>join(rdd,partitioner) -&gt; 当做是将号码相同的小球（不管是不是在一个盒子里）熔成一个大球，并根据放置策略partitioner重新放置 -&gt; 相当于将盒子传递给了一个铁匠</p>
+</blockquote>
+<p>如果经过上述某个操作后，对于所有留下来的小球，如果原来在同一个盒子里的小球现在全部还在同一个盒子里，则为窄依赖；如果任何一个小球和原来在同一个盒子里的其他小球分开了，则为宽依赖。 通俗一点来说，不管被传递的人怎么折腾，原本在同一个盒子里的小球都还在一个盒子里（或者衍生的大盒子），这个传递关系就是窄依赖；否则，则是宽依赖。</p>
+<p>逐一看一下上面列举的算子，显然，map和filter是窄依赖，因为都只是简单的传递了盒子，对单个小球涂色或扔掉，并没有传入新的partitioner，即接收盒子的人并没有对小球进行重新放置。因此所有小球都待在自己原来的盒子里，显然是窄依赖。对于union，也是窄依赖，因为每个小球都会在原来小盒子所衍生的大盒子中。</p>
+<h3 id="join">join</h3>
+<p>对于join(rddB)既可能是窄依赖，也有可能是宽依赖，实际上讨论join是宽依赖还是窄依赖其实相当于讨论cogroup，可以参看下面源码可知，join内部是调用cogroup实现的</p>
+<figure class="highlight scala"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">join</span></span>[<span class="type">W</span>](other: <span class="type">RDD</span>[(<span class="type">K</span>, <span class="type">W</span>)], partitioner: <span class="type">Partitioner</span>): <span class="type">RDD</span>[(<span class="type">K</span>, (<span class="type">V</span>, <span class="type">W</span>))] = &#123;</span><br><span class="line">   <span class="keyword">this</span>.cogroup(other, partitioner).flatMapValues( pair =&gt;</span><br><span class="line">     <span class="keyword">for</span> (v &lt;- pair._1; w &lt;- pair._2) <span class="keyword">yield</span> (v, w)</span><br><span class="line">   )</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+<p>我们需要分情况讨论：</p>
+<h4 id="窄依赖join">窄依赖join</h4>
+<p>想要窄依赖，则必须保证原来同一个盒子里的球传递个另一个人之后依然在同一个盒子里。</p>
+<p>如果传递盒子的人和接受盒子的人有相同的放置小球的策略，并且传递盒子的人和接受盒子的人的盒子数目相同，则join为窄依赖，否则为宽依赖。比如传递者A和传递者B（rddB）两人都采用了HashParitioner（比如用小球的序号对盒子的序号取余），则二人所持有的相同序号的小球一定放在序号相同的盒子里，join之后接受盒子的人也使用同样的HashParitioner，则熔成的打球一定还会被放置在序号相同的盒子里，这样看来，原本放在盒子1中的小球最后一定还是会被放置在盒子1中。（如后文图中的join with inputs co-partitioned）</p>
+<h4 id="宽依赖join">宽依赖join</h4>
+<p>大多数情况的join都是宽依赖，第一个人将相同序号的球打散放置在不同的盒子里，传递给第二个人之后，如果采用不同的放置策略，基本都会使原本在同一个盒子里的球分散到不同的盒子中去。</p>
+<p>这种区别也就是我们常见的join with inputs co-partitioned 和 join with inputs not co-partitioned(如下图所示)</p>
+<blockquote>
+<p>下图中的 join with inputs co-partitioned 对应于上述窄依赖的情况3<br>
+图中涉及到一个人向另一个人传递盒子以及两个人向第三个人传递盒子的情况</p>
+</blockquote>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Spark%E6%A6%82%E5%BF%B5%E6%A8%A1%E5%9E%8B-2%E3%80%91RDD%20&amp;%20Dependency%20&amp;%20%E5%AE%BD%E7%AA%84%E4%BE%9D%E8%B5%96%E5%88%92%E5%88%86.png" alt></p>
+<p>实际上我们也可以从源码角度来看如何区分cogroup是否为宽依赖，cogroup方法实际上创建了CoGroupedRDD，该RDD的getDependencies方法如下：</p>
+<figure class="highlight scala"><table><tr><td class="code"><pre><span class="line"><span class="keyword">override</span> <span class="function"><span class="keyword">def</span> <span class="title">getDependencies</span></span>: <span class="type">Seq</span>[<span class="type">Dependency</span>[_]] = &#123;</span><br><span class="line"> <span class="comment">//rdds是CoGroupedRDD的父RDD列表，part是CoGroupedRDD的partitioner</span></span><br><span class="line">   rdds.map &#123; rdd: <span class="type">RDD</span>[_ &lt;: <span class="type">Product2</span>[<span class="type">K</span>, _]] =&gt;</span><br><span class="line">     <span class="keyword">if</span> (rdd.partitioner == <span class="type">Some</span>(part)) &#123;</span><br><span class="line">       logDebug(<span class="string">"Adding one-to-one dependency with "</span> + rdd)</span><br><span class="line">       <span class="keyword">new</span> <span class="type">OneToOneDependency</span>(rdd)</span><br><span class="line">     &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">       logDebug(<span class="string">"Adding shuffle dependency with "</span> + rdd)</span><br><span class="line">       <span class="keyword">new</span> <span class="type">ShuffleDependency</span>[<span class="type">K</span>, <span class="type">Any</span>, <span class="type">CoGroupCombiner</span>](rdd, part, serializer)</span><br><span class="line">     &#125;</span><br><span class="line">   &#125;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+<p>代码逻辑非常清晰，如果CoGroupedRDD和其父RDD有相同的partitioner则二者关系为窄依赖，否则为宽依赖。</p>
+<h2 id="references">References</h2>
+<p><a href="http://smallx.me/2016/06/07/spark%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/" target="_blank" rel="noopener">http://smallx.me/2016/06/07/spark%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/</a>  <a href="https://github.com/JerryLead/SparkInternals/blob/master/markdown/2-JobLogicalPlan.md" target="_blank" rel="noopener">https://github.com/JerryLead/SparkInternals/blob/master/markdown/2-JobLogicalPlan.md</a>  <a href="https://github.com/JerryLead/SparkInternals/blob/master/markdown/3-JobPhysicalPlan.md" target="_blank" rel="noopener">https://github.com/JerryLead/SparkInternals/blob/master/markdown/3-JobPhysicalPlan.md</a></p>
+]]></content>
+      <categories>
+        <category>Spark</category>
+        <category>Spark概念模型</category>
+      </categories>
+      <tags>
+        <tag>Spark</tag>
       </tags>
   </entry>
   <entry>
@@ -638,139 +771,6 @@
       </categories>
       <tags>
         <tag>Design Pattern</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【深入理解Java虚拟机-0】思维导图汇总</title>
-    <url>/2017/02/03/%E3%80%90%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA-0%E3%80%91%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>此篇博文主要用于汇总JVM初级学习阶段的思维导图，主要根据《深入理解Java虚拟机》书中的脉络，结合JVM Specification中的知识点进行拓展和总结。思维导图通过<strong>iThoughtsX 4.3</strong>绘制，文中会提供原始格式文件(低于4.3版本的iThoughtsX可能无法打开原始文件)和导出的图片。由于有些章节的思维导图过大，我可能会进行拆分，但是尽量不会影响理解。</p>
-<p>内容有些杂乱，主要用作个人笔记整理，同时也希望这些思维导图能帮助大家更好地理解《深入理解Java虚拟机》(配合JVM Specification食用更佳）。有些导图目前还是半成品，暂时不会放上来，文章持续更新中。</p>
-<a id="more"></a>
-<h2 id="第二部分-自动内存管理">第二部分 自动内存管理</h2>
-<h3 id="第二章-java内存区域与内存溢出异常">第二章 Java内存区域与内存溢出异常</h3>
-<p>这一章节主要涉及三方面的内容：</p>
-<ul>
-<li>运行时数据区域</li>
-<li>HotSpot虚拟机对象的表示</li>
-<li>OutOfMemoryError的相关实践</li>
-</ul>
-<p>思维导图如下( 点击放大再放大😑 ) ：<img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Java%20Memory%20Area.pdf" alt></p>
-<p>iThoughtsX原格式文件地址:</p>
-<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Java%20Memory%20Area.itmz" target="_blank" rel="noopener">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】%5BMind%20Map%5D%20Java%20Memory%20Area.itmz</a></p>
-<h3 id="第三章-垃圾收集器与内存分配策略">第三章 垃圾收集器与内存分配策略</h3>
-<p><a href="http://qifuguang.me/2015/09/02/%5BJava%E5%B9%B6%E5%8F%91%E5%8C%85%E5%AD%A6%E4%B9%A0%E4%B8%83%5D%E8%A7%A3%E5%AF%86ThreadLocal/" target="_blank" rel="noopener">http://qifuguang.me/2015/09/02/[Java并发包学习七]解密ThreadLocal/</a></p>
-<h2 id="第三部分-虚拟机执行子系统">第三部分 虚拟机执行子系统</h2>
-<h3 id="第六章-类文件结构">第六章 类文件结构</h3>
-<p>这一章节思维导图拆分为两部分，第一部分是关于Class类文件结构的，第二部分是关于字节码指令简介的。由于第二部分知识点比较琐碎，目前还在考虑对此部分是否有制作思维导图的必要。首先献上第一部分思维导图 ( 点击放大再放大😑 ) ：<img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91Class%20File%20Mind%20Map.pdf" alt="Class File Mind Map"></p>
-<p>iThoughtsX原格式文件地址:</p>
-<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91Class%20File%20Mind%20Map.itmz" target="_blank" rel="noopener">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】Class%20File%20Mind%20Map.itmz</a></p>
-<h3 id="第七章-虚拟机类加载机制">第七章 虚拟机类加载机制</h3>
-<p>这一章节分为类加载机制以及类加载器两部分。</p>
-<h4 id="类加载机制">类加载机制</h4>
-<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading%20.pdf?%20v=20170214" alt="Class Loading"></p>
-<p>iThoughtsX原格式文件地址:</p>
-<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading%20.itmz" target="_blank" rel="noopener">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】%5BMind%20Map%5D%20Class%20Loading%20.itmz</a></p>
-<h4 id="类加载器">类加载器</h4>
-<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading_1%20.pdf?%20imageView2/3/w/400/h/400/q/75" alt></p>
-<p>iThoughtsX原格式文件地址:</p>
-<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading_1%20.itmz" target="_blank" rel="noopener">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】%5BMind%20Map%5D%20Class%20Loading_1%20.itmz</a></p>
-<h3 id="第八章-虚拟机字节码执行引擎">第八章 虚拟机字节码执行引擎</h3>
-<p>这一章节主要分为三个部分：</p>
-<ul>
-<li>
-<p>运行时栈帧结构</p>
-</li>
-<li>
-<p>方法调用</p>
-</li>
-<li>
-<p>基于栈的字节码解释执行引擎</p>
-</li>
-</ul>
-<p>这三部分都集中在下面这张图中进行总结：<img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20JVM%20Bytecode%20Execution%20Engine.pdf" alt></p>
-<p>iThoughtsX原格式文件地址:</p>
-<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20JVM%20Bytecode%20Execution%20Engine.itmz" target="_blank" rel="noopener">【Understanding%20the%20JVM】%5BMind%20Map%5D%20JVM%20Bytecode%20Execution%20Engine.itmz</a></p>
-<h2 id="第四部分-程序编译与代码优化">第四部分 程序编译与代码优化</h2>
-<p>敬请期待。。。😪</p>
-<h2 id="第五部分-高效并发">第五部分 高效并发</h2>
-<p>这一部分书中主要分为两个章节来讲解： Java内存模型与线程、线程安全与锁优化。但是《深入理解Java虚拟机》并没有用很大的篇幅来讲并发这一部分，因此还需结合《Java Concurrency in Practice》等书来加深理解。更多关于java并发的总结可以关注Java Primer系列的相关博文。</p>
-<h3 id="第十二章-java内存模型与线程">第十二章 Java内存模型与线程</h3>
-<h3 id="第十三章-线程安全与锁优化">第十三章 线程安全与锁优化</h3>
-]]></content>
-      <categories>
-        <category>JVM</category>
-        <category>深入理解Java虚拟机</category>
-      </categories>
-      <tags>
-        <tag>JVM</tag>
-        <tag>MindMap</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Spark概念模型-2】RDD &amp; Dependency &amp; 宽窄依赖划分</title>
-    <url>/2016/05/15/%E3%80%90Spark%E6%A6%82%E5%BF%B5%E6%A8%A1%E5%9E%8B-2%E3%80%91RDD-Dependency-%E5%AE%BD%E7%AA%84%E4%BE%9D%E8%B5%96%E5%88%92%E5%88%86/</url>
-    <content><![CDATA[<h2 id="rdd">RDD</h2>
-<p>RDD是由诸多partition所构成的分布式只读数据集以及相关算子的封装，它只是一个逻辑概念上的数据集而并非是一个将所有数据都载入内存的数据结构（这里只是简单提一下RDD，在另一篇博客详细讲解RDD的概念，本文重点在于Dependency）。</p>
-<h2 id="dependency">Dependency</h2>
-<p>Dependency描述了RDD之间的依赖关系，每个RDD内部都记录了它与其他RDD（parent RDD）的依赖关系。通过Dependency类的getParents(partitionId:Int)我们可以获取当前RDD的每个partition所依赖的parent partitions。</p>
-<a id="more"></a>
-<p>RDD之间的依赖关系可以分为Narrow Dependency和Shuffle(Wide) Dependency。到底应该如何区分RDD之间的关系是宽依赖还是窄依赖？</p>
-<p>这主要取决于parent RDD的一个partition被child RDD的多少个partition所利用：如果parent RDD的每一个partition最多只会被child RDD的一个partition利用，则父子RDD之间的关系为窄依赖，相反，如果被child RDD的多个partition利用，则为宽依赖。</p>
-<p>这种定义无疑是正确的，但是并不是很形象</p>
-<p>现在把每一条数据看做是一个带有序号和颜色的小球（序号可以重复），将partition看做是放小球的盒子（盒子也有序号且序号不重复），一个RDD是指一个持有多个盒子的人。每个人都有自己放置小球的策略，将partitioner看做是人将小球放置到盒子中的策略（比如常见的HashPartitioner)，而且每个人根据自己的职业都有自己对小球处理的喜好。现在进行盒子传递（一个人把盒子给另一个人）。传递盒子的人是父RDD,接受盒子的人是子RDD，由于接受盒子的人有自己的处理喜好和放置小球的策略，因此凡是进行了盒子传递必定会进行小球的处理和重新放置（相当于transformation）。</p>
-<blockquote>
-<p>“不同的算子会产生不同的RDD”，这句话其实并不是那么准确，我们知道每个RDD都有compute方法，但是不同的RDD对应的compute实现并不相同（如MappedRDD的compute方法里对每一条数据进行了map操作，相当于在RDD内部包含了算子定义的操作，详见<a href="../Spark%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/RDD%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90">RDD源码解析</a>）。因此，个人觉得这句话改成不同的RDD带有不同的算子更为恰当。同理，RDD中有一个属性partitioner，因此，分区策略也是RDD的固有属性。</p>
-</blockquote>
-<p>对应于现在的场景，不同的人根据自己的职业有不同的处理小球的喜好，且有自己放置小球的策略，对应于不同的RDD带有不同的算子，且传入了不同的partitioner。</p>
-<p>其实上面的比喻也可以帮助我们更好地理解RDD，如果我们想在一群人之间传递盒子以便让不同职业的人对盒子中的小球进行处理（此过程相当于将一系列partition中的数据用不同算子处理以得到目标结果），则对于每个人我们至少需要五个信息：当前人所持有的所有盒子的列表，当前人对小球的处理喜好，传递盒子给当前人的人是哪些人，当前人对小球的放置策略，以及当前人放置盒子的地点</p>
-<p>这恰好和<a href="./RDD%E7%9A%84%E6%A6%82%E5%BF%B5%E7%90%86%E8%A7%A3">RDD的概念理解</a>中提到过RDD类的五个重要特征相对应：<br>
-1、partitions的列表（“当前人”所持有的盒子列表)<br>
-2、compute方法来计算iterator（“当前人”对小球的处理喜好）<br>
-3、getDependencies(传递给“当前人”盒子的人有哪些)<br>
-4、partitioner（“当前人”放置小球的策略）<br>
-5、getPreferredLocations（“当前人”放置盒子的位置）</p>
-<p>现在有一个人持有多个箱子，他按照放置策略A放置好了小球，你可以选择让他把箱子传给下面不同职业的人</p>
-<p>将算子作用于小球的变化过程看做是如下操作：</p>
-<blockquote>
-<p>eg：<br>
-map() -&gt; 当做是给小球涂色 -&gt; 对应于MappedRDD，相当于将盒子传递给了一个画匠</p>
-</blockquote>
-<blockquote>
-<p>filter() -&gt; 当做是从盒子里取出小球扔掉  -&gt; 对应于FilteredRDD，相当于将盒子传递给了一个投手。。。想不到更合适的职业了。。。</p>
-</blockquote>
-<blockquote>
-<p>union(rdd) -&gt; 当做是将多个小盒子合成一个大盒子（所有被合并小盒子的编号均可看做合并后大盒子的编号）-&gt; 对应于UnionRDD，相当于将盒子传递给了一个装箱工人</p>
-<p>join(rdd,partitioner) -&gt; 当做是将号码相同的小球（不管是不是在一个盒子里）熔成一个大球，并根据放置策略partitioner重新放置 -&gt; 相当于将盒子传递给了一个铁匠</p>
-</blockquote>
-<p>如果经过上述某个操作后，对于所有留下来的小球，如果原来在同一个盒子里的小球现在全部还在同一个盒子里，则为窄依赖；如果任何一个小球和原来在同一个盒子里的其他小球分开了，则为宽依赖。 通俗一点来说，不管被传递的人怎么折腾，原本在同一个盒子里的小球都还在一个盒子里（或者衍生的大盒子），这个传递关系就是窄依赖；否则，则是宽依赖。</p>
-<p>逐一看一下上面列举的算子，显然，map和filter是窄依赖，因为都只是简单的传递了盒子，对单个小球涂色或扔掉，并没有传入新的partitioner，即接收盒子的人并没有对小球进行重新放置。因此所有小球都待在自己原来的盒子里，显然是窄依赖。对于union，也是窄依赖，因为每个小球都会在原来小盒子所衍生的大盒子中。</p>
-<h3 id="join">join</h3>
-<p>对于join(rddB)既可能是窄依赖，也有可能是宽依赖，实际上讨论join是宽依赖还是窄依赖其实相当于讨论cogroup，可以参看下面源码可知，join内部是调用cogroup实现的</p>
-<figure class="highlight scala"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">join</span></span>[<span class="type">W</span>](other: <span class="type">RDD</span>[(<span class="type">K</span>, <span class="type">W</span>)], partitioner: <span class="type">Partitioner</span>): <span class="type">RDD</span>[(<span class="type">K</span>, (<span class="type">V</span>, <span class="type">W</span>))] = &#123;</span><br><span class="line">   <span class="keyword">this</span>.cogroup(other, partitioner).flatMapValues( pair =&gt;</span><br><span class="line">     <span class="keyword">for</span> (v &lt;- pair._1; w &lt;- pair._2) <span class="keyword">yield</span> (v, w)</span><br><span class="line">   )</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
-<p>我们需要分情况讨论：</p>
-<h4 id="窄依赖join">窄依赖join</h4>
-<p>想要窄依赖，则必须保证原来同一个盒子里的球传递个另一个人之后依然在同一个盒子里。</p>
-<p>如果传递盒子的人和接受盒子的人有相同的放置小球的策略，并且传递盒子的人和接受盒子的人的盒子数目相同，则join为窄依赖，否则为宽依赖。比如传递者A和传递者B（rddB）两人都采用了HashParitioner（比如用小球的序号对盒子的序号取余），则二人所持有的相同序号的小球一定放在序号相同的盒子里，join之后接受盒子的人也使用同样的HashParitioner，则熔成的打球一定还会被放置在序号相同的盒子里，这样看来，原本放在盒子1中的小球最后一定还是会被放置在盒子1中。（如后文图中的join with inputs co-partitioned）</p>
-<h4 id="宽依赖join">宽依赖join</h4>
-<p>大多数情况的join都是宽依赖，第一个人将相同序号的球打散放置在不同的盒子里，传递给第二个人之后，如果采用不同的放置策略，基本都会使原本在同一个盒子里的球分散到不同的盒子中去。</p>
-<p>这种区别也就是我们常见的join with inputs co-partitioned 和 join with inputs not co-partitioned(如下图所示)</p>
-<blockquote>
-<p>下图中的 join with inputs co-partitioned 对应于上述窄依赖的情况3<br>
-图中涉及到一个人向另一个人传递盒子以及两个人向第三个人传递盒子的情况</p>
-</blockquote>
-<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Spark%E6%A6%82%E5%BF%B5%E6%A8%A1%E5%9E%8B-2%E3%80%91RDD%20&amp;%20Dependency%20&amp;%20%E5%AE%BD%E7%AA%84%E4%BE%9D%E8%B5%96%E5%88%92%E5%88%86.png" alt></p>
-<p>实际上我们也可以从源码角度来看如何区分cogroup是否为宽依赖，cogroup方法实际上创建了CoGroupedRDD，该RDD的getDependencies方法如下：</p>
-<figure class="highlight scala"><table><tr><td class="code"><pre><span class="line"><span class="keyword">override</span> <span class="function"><span class="keyword">def</span> <span class="title">getDependencies</span></span>: <span class="type">Seq</span>[<span class="type">Dependency</span>[_]] = &#123;</span><br><span class="line"> <span class="comment">//rdds是CoGroupedRDD的父RDD列表，part是CoGroupedRDD的partitioner</span></span><br><span class="line">   rdds.map &#123; rdd: <span class="type">RDD</span>[_ &lt;: <span class="type">Product2</span>[<span class="type">K</span>, _]] =&gt;</span><br><span class="line">     <span class="keyword">if</span> (rdd.partitioner == <span class="type">Some</span>(part)) &#123;</span><br><span class="line">       logDebug(<span class="string">"Adding one-to-one dependency with "</span> + rdd)</span><br><span class="line">       <span class="keyword">new</span> <span class="type">OneToOneDependency</span>(rdd)</span><br><span class="line">     &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">       logDebug(<span class="string">"Adding shuffle dependency with "</span> + rdd)</span><br><span class="line">       <span class="keyword">new</span> <span class="type">ShuffleDependency</span>[<span class="type">K</span>, <span class="type">Any</span>, <span class="type">CoGroupCombiner</span>](rdd, part, serializer)</span><br><span class="line">     &#125;</span><br><span class="line">   &#125;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
-<p>代码逻辑非常清晰，如果CoGroupedRDD和其父RDD有相同的partitioner则二者关系为窄依赖，否则为宽依赖。</p>
-<h2 id="references">References</h2>
-<p><a href="http://smallx.me/2016/06/07/spark%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/" target="_blank" rel="noopener">http://smallx.me/2016/06/07/spark%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/</a>  <a href="https://github.com/JerryLead/SparkInternals/blob/master/markdown/2-JobLogicalPlan.md" target="_blank" rel="noopener">https://github.com/JerryLead/SparkInternals/blob/master/markdown/2-JobLogicalPlan.md</a>  <a href="https://github.com/JerryLead/SparkInternals/blob/master/markdown/3-JobPhysicalPlan.md" target="_blank" rel="noopener">https://github.com/JerryLead/SparkInternals/blob/master/markdown/3-JobPhysicalPlan.md</a></p>
-]]></content>
-      <categories>
-        <category>Spark</category>
-        <category>Spark概念模型</category>
-      </categories>
-      <tags>
-        <tag>Spark</tag>
       </tags>
   </entry>
   <entry>
