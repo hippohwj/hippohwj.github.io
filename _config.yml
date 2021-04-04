@@ -125,6 +125,7 @@ markdown:
 deploy:
   type: git
   repository: 
-    github: git@github.com:hippohwj/hippohwj.github.io.git
-    coding: git@git.coding.net:hippohwj/hippohwj.git
+  #  github: git@github.com:hippohwj/hippohwj.github.io.git
+  #  coding: git@git.coding.net:hippohwj/hippohwj.git
+    github: https://github.com/hippohwj/hippohwj.github.io.git
   branch: master
