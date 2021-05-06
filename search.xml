@@ -1,6 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Personal Configuration for Mac and Apps</title>
+    <url>/2017/01/30/Personal-Configuration-for-Mac-and-Apps/</url>
+    <content><![CDATA[<h2 id="continue-updating">Continue Updating</h2>
+<p>Here are my configurations and settings for mac and apps in order to reach a higher productivity. Some config files can be found in the following repo: <a href="https://github.com/hippo-jessy/MacAndAppsConfig" target="_blank" rel="noopener">https://github.com/hippo-jessy/MacAndAppsConfig</a></p>
+<h2 id="current-environments">Current Environments</h2>
+<p>OS: Mac OS X EI Capitan(version 10.11.6)</p>
+<a id="more"></a>
+<h2 id="useful-apps-and-tools-for-mac">Useful Apps and Tools for Mac</h2>
+<ul>
+<li>
+<p><strong>Karabiner &amp;&amp; Seil</strong></p>
+<ul>
+<li>
+<p><strong>Karabiner:</strong></p>
+<p>This app can be used to remap keyboard and shortcut. I take use of it to remap “ctrl + K / J / H / L” to Arrow keys ( Up / Down / Left / Right ). My personal config file is right here:</p>
+<p><a href="https://github.com/hippo-jessy/MacAndAppsConfig/blob/master/Karabiner/private.xml" target="_blank" rel="noopener">https://github.com/hippo-jessy/MacAndAppsConfig/blob/master/Karabiner/private.xml</a></p>
+</li>
+<li>
+<p><strong>Seil:</strong></p>
+<p>I use this app only for its functionality to remap Caps Lock to esc. It’s pretty much helpful when editing in vim mode. Although most remapping actions can be performed by Karabiner, it can do nothing with this special key ( Karabiner is currently working to support MacOS Sierra and trying to fully integrate Seil, you can <a href="https://github.com/tekezo/Karabiner-Elements" target="_blank" rel="noopener">check it here</a> ).</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>iStat Menus</strong></p>
+<p>This one is basically a profiling tool which show dynamic status of CPU, memory, disks, etc. All these information is presented in the menubar and in a pleasant way as the following picture shown:</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Personal%20Configuration%20for%20Mac%20and%20Apps.png" alt=" Personal Configuration for Mac and Apps"></p>
+</li>
+</ul>
+<h2 id="keyboard-and-shortcut-remapping">Keyboard and Shortcut Remapping</h2>
+<ul>
+<li>
+<p><strong>Disable shortcut CMD + H systemwide &quot; hide window &quot; functionality and reassign it to different action in specific apps</strong>. No additional tool is needed to fulfil this remapping process and try to follow these steps:</p>
+<ol>
+<li>
+<p>Go to <em>System Preference</em> and locate <em>KeyBoard</em></p>
+</li>
+<li>
+<p>Go to <em>Keyboard Shortcuts</em> sub tab at the top</p>
+</li>
+<li>
+<p>Choose <em>App Shortcuts</em> on the list at left side</p>
+</li>
+<li>
+<p>Click on the + sign below the list to the right</p>
+</li>
+<li>
+<p>See the following screenshot, where I’ve reassigned CMD+H  to “left with selection” action in IntelliJ IDEA exclusively.</p>
+<p><em>Tips: choose “All controls” for pressing Tab could also fast your keyboard operation.</em></p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/Personal%20Configuration%20for%20Mac%20and%20Apps_1.png" alt="Personal Configuration for Mac and Apps_1"></p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Remap Ctrl + H / J / K / L to Arrow keys ( left / down / up/ right )</strong> considering anti human location of Arrow keys. Take good use of <strong>Karabiner</strong> to achieve this task as I mentioned before.</p>
+</li>
+<li>
+<p><strong>Remap caps lock to esc</strong> using <strong>Seil</strong> to speed up vim mode editing.</p>
+</li>
+<li>
+<p><strong>Remember to switch Mac Function Keys ( such as F1, F2 ) to standard function keys</strong> in that many apps like browsers, IDEs may take these keys as part of shortcuts.</p>
+</li>
+</ul>
+<h2 id="settings-for-intellij-idea">Settings for IntelliJ IDEA</h2>
+<p>I changed most of keymap settings of IntelliJ IDEA based on my own habits and most of these changed shortcuts are easier to remember. You can find the settings file here:  <a href="https://github.com/hippo-jessy/MacAndAppsConfig/tree/master/IntelliJ_IDEA" target="_blank" rel="noopener">settings exported</a></p>
+<p><strong>To Be Continued …</strong></p>
+]]></content>
+      <categories>
+        <category>Configuration</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>Config</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Charset and Encoding</title>
     <url>/2017/01/17/Charset-and-Encoding/</url>
     <content><![CDATA[<p>最近重新整理一遍 <strong>Java</strong> 基础，在写到注释相关的内容时发现自己对各种字符编码问题一直似懂非懂。相信很多人都听说过ASCII, Unicode, GB2312, UTF-8之类的编码，但是对于它们的印象可能仅仅停留在知道它们是不同的字符编码，使用不当可能会导致乱码的层面上。</p>
@@ -158,159 +234,6 @@
         <tag>Unicode</tag>
         <tag>UTF-8</tag>
         <tag>UTF-16</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Personal Configuration for Mac and Apps</title>
-    <url>/2017/01/30/Personal-Configuration-for-Mac-and-Apps/</url>
-    <content><![CDATA[<h2 id="continue-updating">Continue Updating</h2>
-<p>Here are my configurations and settings for mac and apps in order to reach a higher productivity. Some config files can be found in the following repo: <a href="https://github.com/hippo-jessy/MacAndAppsConfig" target="_blank" rel="noopener">https://github.com/hippo-jessy/MacAndAppsConfig</a></p>
-<h2 id="current-environments">Current Environments</h2>
-<p>OS: Mac OS X EI Capitan(version 10.11.6)</p>
-<a id="more"></a>
-<h2 id="useful-apps-and-tools-for-mac">Useful Apps and Tools for Mac</h2>
-<ul>
-<li>
-<p><strong>Karabiner &amp;&amp; Seil</strong></p>
-<ul>
-<li>
-<p><strong>Karabiner:</strong></p>
-<p>This app can be used to remap keyboard and shortcut. I take use of it to remap “ctrl + K / J / H / L” to Arrow keys ( Up / Down / Left / Right ). My personal config file is right here:</p>
-<p><a href="https://github.com/hippo-jessy/MacAndAppsConfig/blob/master/Karabiner/private.xml" target="_blank" rel="noopener">https://github.com/hippo-jessy/MacAndAppsConfig/blob/master/Karabiner/private.xml</a></p>
-</li>
-<li>
-<p><strong>Seil:</strong></p>
-<p>I use this app only for its functionality to remap Caps Lock to esc. It’s pretty much helpful when editing in vim mode. Although most remapping actions can be performed by Karabiner, it can do nothing with this special key ( Karabiner is currently working to support MacOS Sierra and trying to fully integrate Seil, you can <a href="https://github.com/tekezo/Karabiner-Elements" target="_blank" rel="noopener">check it here</a> ).</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>iStat Menus</strong></p>
-<p>This one is basically a profiling tool which show dynamic status of CPU, memory, disks, etc. All these information is presented in the menubar and in a pleasant way as the following picture shown:</p>
-<p><img src="http://ojnnon64z.bkt.clouddn.com/Personal%20Configuration%20for%20Mac%20and%20Apps.png" alt=" Personal Configuration for Mac and Apps"></p>
-</li>
-</ul>
-<h2 id="keyboard-and-shortcut-remapping">Keyboard and Shortcut Remapping</h2>
-<ul>
-<li>
-<p><strong>Disable shortcut CMD + H systemwide &quot; hide window &quot; functionality and reassign it to different action in specific apps</strong>. No additional tool is needed to fulfil this remapping process and try to follow these steps:</p>
-<ol>
-<li>
-<p>Go to <em>System Preference</em> and locate <em>KeyBoard</em></p>
-</li>
-<li>
-<p>Go to <em>Keyboard Shortcuts</em> sub tab at the top</p>
-</li>
-<li>
-<p>Choose <em>App Shortcuts</em> on the list at left side</p>
-</li>
-<li>
-<p>Click on the + sign below the list to the right</p>
-</li>
-<li>
-<p>See the following screenshot, where I’ve reassigned CMD+H  to “left with selection” action in IntelliJ IDEA exclusively.</p>
-<p><em>Tips: choose “All controls” for pressing Tab could also fast your keyboard operation.</em></p>
-<p><img src="http://ojnnon64z.bkt.clouddn.com/Personal%20Configuration%20for%20Mac%20and%20Apps_1.png" alt="Personal Configuration for Mac and Apps_1"></p>
-</li>
-</ol>
-</li>
-<li>
-<p><strong>Remap Ctrl + H / J / K / L to Arrow keys ( left / down / up/ right )</strong> considering anti human location of Arrow keys. Take good use of <strong>Karabiner</strong> to achieve this task as I mentioned before.</p>
-</li>
-<li>
-<p><strong>Remap caps lock to esc</strong> using <strong>Seil</strong> to speed up vim mode editing.</p>
-</li>
-<li>
-<p><strong>Remember to switch Mac Function Keys ( such as F1, F2 ) to standard function keys</strong> in that many apps like browsers, IDEs may take these keys as part of shortcuts.</p>
-</li>
-</ul>
-<h2 id="settings-for-intellij-idea">Settings for IntelliJ IDEA</h2>
-<p>I changed most of keymap settings of IntelliJ IDEA based on my own habits and most of these changed shortcuts are easier to remember. You can find the settings file here:  <a href="https://github.com/hippo-jessy/MacAndAppsConfig/tree/master/IntelliJ_IDEA" target="_blank" rel="noopener">settings exported</a></p>
-<p><strong>To Be Continued …</strong></p>
-]]></content>
-      <categories>
-        <category>Configuration</category>
-      </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>Config</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Design Pattern】Iterator 迭代器模式</title>
-    <url>/2017/01/22/%E3%80%90Design-Pattern%E3%80%91Iterator-%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F/</url>
-    <content><![CDATA[<h1>Class Diagram</h1>
-<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Design%20Pattern%E3%80%91Iterator%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F.png" alt="【Design Pattern】Iterator 迭代器模式"></p>
-<h1>Introduction</h1>
-<p>迭代器模式其目的是将容器的遍历与容器的内部实现解耦，从而利用一种通用统一的方式遍历内部实现各异的多种容器。迭代器模式的使用已经非常普遍，这里不再赘述。此篇博客重点在于介绍迭代器的内部实现，以及在JDK源码中迭代器模式的实际运用。</p>
-<a id="more"></a>
-<h1>Implementation</h1>
-<p>既然是要与容器内部实现解耦，很自然地想到要加一层针对容器的抽象。如何加抽象？这里采用interface的形式。根据上文中的类图，我们可以看到Aggregate接口，这个接口就保证了凡是实现了该接口的容器（不管其内部是如何实现的）都可以利用Iterator对其进行遍历。Aggregate接口声明的createIterator()方法非常关键(对应于java中的iterator()方法），它实现了Iterator与容器的关联绑定。给一个更具体的ConcreteIterator类图：</p>
-<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Design%20Pattern%E3%80%91Iterator%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F_1.png" alt="【Design Pattern】Iterator 迭代器模式_1"></p>
-<p>具体来说，ConcreteIterator的构造器有一个参数，这个参数必须是一个实现了Aggregate接口的类的对象。这样，通过createIterator()的内部实现  return new ConcreteIterator(this) 使得ConcreteIterator关联了ConcreteAggregate的对象，从而可以直接利用createItertor()返回的Iterator对象来对ConcreteAggregate进行遍历。</p>
-<h1>Examples</h1>
-<blockquote>
-<p>所有【Design Pattern】系列博文的示例代码都可以在这个repo中找到<a href="https://github.com/hippo-jessy/design_pattern" target="_blank" rel="noopener">https://github.com/hippo-jessy/design_pattern</a></p>
-</blockquote>
-<p>这里给出一个实现迭代器模式的一个例子(ConcreteAggregate用ArrayList作为内部结构存储)：</p>
-<ul>
-<li><strong>Aggregate Interface</strong></li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Aggregate</span>&lt;<span class="title">E</span>&gt; </span>&#123;</span><br><span class="line">	<span class="function">Iterator&lt;E&gt; <span class="title">createIterator</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li><strong>Iterator Interface</strong></li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Iterator</span>&lt;<span class="title">E</span>&gt; </span>&#123;</span><br><span class="line">	<span class="function">E <span class="title">next</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function"><span class="keyword">boolean</span> <span class="title">hasNext</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li><strong>ConcreteAggregate Class</strong></li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ConcreteAggregate</span>&lt;<span class="title">E</span>&gt; <span class="keyword">implements</span> <span class="title">Aggregate</span>&lt;<span class="title">E</span>&gt; </span>&#123;</span><br><span class="line">	<span class="keyword">private</span> ArrayList&lt;E&gt; internalData;</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">ConcreteAggregate</span><span class="params">()</span></span>&#123;</span><br><span class="line">		internalData = <span class="keyword">new</span> ArrayList&lt;E&gt;();</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> Iterator&lt;E&gt; <span class="title">createIterator</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="keyword">new</span> ConcreteIterator&lt;E&gt;(<span class="keyword">this</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">public</span> E <span class="title">get</span><span class="params">(<span class="keyword">int</span> index)</span></span>&#123;</span><br><span class="line">		<span class="keyword">return</span> internalData.get(index);</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">add</span><span class="params">(E element)</span></span>&#123;</span><br><span class="line">		internalData.add(element);</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">size</span><span class="params">()</span></span>&#123;</span><br><span class="line">		<span class="keyword">return</span> internalData.size();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li><strong>ConcreteIterator Class</strong></li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ConcreteIterator</span>&lt;<span class="title">E</span>&gt; <span class="keyword">implements</span> <span class="title">Iterator</span>&lt;<span class="title">E</span>&gt; </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">private</span> ConcreteAggregate&lt;E&gt; aggregate;</span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">int</span> cursor = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">ConcreteIterator</span><span class="params">(ConcreteAggregate&lt;E&gt; aggregate)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">this</span>.aggregate = aggregate;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> E <span class="title">next</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> aggregate.get(cursor++);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">hasNext</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> (cursor &lt; aggregate.size()) ? <span class="keyword">true</span> : <span class="keyword">false</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li><strong>Client 端代码</strong></li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Client</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">		ConcreteAggregate&lt;String&gt; aggregate = <span class="keyword">new</span> ConcreteAggregate&lt;String&gt;();</span><br><span class="line">		aggregate.add(<span class="string">"This"</span>);</span><br><span class="line">		aggregate.add(<span class="string">"is"</span>);</span><br><span class="line">		aggregate.add(<span class="string">"a"</span>);</span><br><span class="line">		aggregate.add(<span class="string">"bright"</span>);</span><br><span class="line">		aggregate.add(<span class="string">"day"</span>);</span><br><span class="line">		Iterator&lt;String&gt; iter = aggregate.createIterator();</span><br><span class="line">		<span class="keyword">while</span>(iter.hasNext())&#123;</span><br><span class="line">			System.out.print(iter.next()+<span class="string">"/"</span>);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>运行输出结果为：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">This/is/a/bright/day/</span><br></pre></td></tr></table></figure>
-<br>
-<h1>Extension</h1>
-<p>参照上面的类图和例子，又产生了如下疑问：</p>
-<p>这里产生了一个新的问题，如果ConcreteIterator必须设一个ConcreteAggregate类型的属性，那岂不是每定义一种ConcreteAggregate都得重新定义一个与之对应的ConcreteIterator类？<strong>从某种程度上来说</strong>，java中确实是这样做的。</p>
-<p>为什么说是“从某种程度上“ ？原因主要有两点：</p>
-<ol>
-<li>
-<p>以Collection框架为例，从最初的Iterable接口, Collection接口到最后的ArrayList, LinkedList, HashSet, PriorityQueue等最终实现，中间添加了多重抽象层，比如AbstractCollection, AbstractList等等。因此在JDK中ConcreteAggregate的这个概念变得模糊了。以ArrayList和LinkedList为例，实际上充当ConcreteAggregate的是它们的父类AbstractList。也就是说只需要定义与AbstractList对应的ConcreteIterator类即可，而不必要给ArrayList，LinkedList都创建对应的ConcreteIterator。</p>
-</li>
-<li>
-<p>严格地来说，java是在ConcreteAggregate类中定义一个与之对应的ConcreteIterator<strong>内部类</strong>。这样做其实是一种很明智的做法，从上面的两张类图以及Example中的示例代码我们可以清楚的看到Client端（也就是JDK使用者）通常只会和Aggregate接口，ConcreteAggregate类以及Iterator接口打交道（Client端遍历容器只需要使用Iterator接口暴露的方法即可，没有任何调用ConcreteIterator的需求）。ConcreteIterable类除了在ConcreteAggregate类的createIterator方法中被实例化以外，不会在其他地方实例化。而且这种关联关系存在的意义是为了让ConcreteIterable使用ConcreteAggregate内部的某些方法以便实现Iterator接口定义的next()等方法。很明显在将ConcreteIterable作为ConcreteAggregate的内部类来定义非常合适。甚至可以直接在createIterator方法中定义匿名内部类实现Iterable接口。</p>
-<blockquote>
-<p>适合使用匿名类情形：该类只会在定义的地方被实例化；</p>
-<p>适合使用内部类的特征： 该类需要使用外部类的某些属性方法而该类又不会在外部类以外的地方被调用或实例化。</p>
-</blockquote>
-</li>
-</ol>
-<p>于是根据第二点的启发，上面Example部分的实例代码可以进行改写（Iterator接口用匿名内部类实现，无需专门单独定义ConcreteIterator类）：</p>
-<ul>
-<li><strong>改进版ConcreteAggregate</strong></li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ConcreteAggregateOptim</span>&lt;<span class="title">E</span>&gt; <span class="keyword">implements</span> <span class="title">Aggregate</span>&lt;<span class="title">E</span>&gt; </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">private</span> ArrayList&lt;E&gt; internalData;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">ConcreteAggregateOptim</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">this</span>.internalData = <span class="keyword">new</span> ArrayList&lt;E&gt;();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> Iterator&lt;E&gt; <span class="title">createIterator</span><span class="params">()</span> </span>&#123;</span><br><span class="line">      <span class="comment">//使用匿名内部类实现Iterator接口</span></span><br><span class="line">		<span class="keyword">return</span> <span class="keyword">new</span> Iterator&lt;E&gt;() &#123;</span><br><span class="line">			<span class="keyword">private</span> <span class="keyword">int</span> cursor = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">			<span class="meta">@Override</span></span><br><span class="line">			<span class="function"><span class="keyword">public</span> E <span class="title">next</span><span class="params">()</span> </span>&#123;</span><br><span class="line">				<span class="keyword">return</span> get(cursor++);</span><br><span class="line">			&#125;</span><br><span class="line"></span><br><span class="line">			<span class="meta">@Override</span></span><br><span class="line">			<span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">hasNext</span><span class="params">()</span> </span>&#123;</span><br><span class="line">				<span class="keyword">return</span> (cursor &lt; size()) ? <span class="keyword">true</span> : <span class="keyword">false</span>;</span><br><span class="line">			&#125;</span><br><span class="line"></span><br><span class="line">		&#125;;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> E <span class="title">get</span><span class="params">(<span class="keyword">int</span> index)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> internalData.get(index);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">add</span><span class="params">(E element)</span> </span>&#123;</span><br><span class="line">		internalData.add(element);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">size</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> internalData.size();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>JDK源码中对迭代器模式的实现和上面这段改进代码比较类似，只不过它更倾向于采用内部类而非匿名内部类。JDK中迭代器模式的简化版类图（中间省略了几层继承关系）如下：</p>
-<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Design%20Pattern%E3%80%91Iterator%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F_2.png" alt="【Design Pattern】Iterator 迭代器模式_2"></p>
-<p>这里JDK库中<strong>Iterable接口相当于上文第一张类图中的Aggregate接口</strong>，Iterable接口中声明的方法Iterator()对应于createIterator()方法，<strong>Java 中的Iterator接口直接对应与之前的Iterator接口</strong>，AbstractList类对应于ConcreteAggregate类，而AbstractList类中的内部类Itr实现了Iterator接口，相当于ConcreteIterator。ArrayList和LinkedList均为AbstractList的子类，可以直接使用父类的iterator()方法得到由内部类Itr向上转型后的Iterator接口引用，通过Iterator接口暴露的hasNext, next等方法最终实现遍历。Client端代码一般只会和Iterator接口以及ArrayList，LinkedList等类发生关联（有时也会使用上面类图中省略了的List接口，Collection接口等，但是不会有使用内部类Iter的需求）。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">ArrayList&lt;String&gt; sampleList = <span class="keyword">new</span> ArrayList&lt;String&gt;();</span><br><span class="line">Collections.addAll(sampleList,<span class="string">"a"</span>,<span class="string">"b"</span>,<span class="string">"c"</span>,<span class="string">"d"</span>);</span><br><span class="line"><span class="comment">//sampleList.iterator()调用的是ArrayList的父类AbstractList中实现Iterable接口的方法</span></span><br><span class="line">Iterator&lt;String&gt; iter = sampleList.iterator();</span><br><span class="line"><span class="keyword">while</span>(iter.hasNext())&#123;</span><br><span class="line">  System.out.println(iter.next());</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//凡是实现了Iterable接口的类都可以用foreach形式来遍历其内部元素，原理是foreach会</span></span><br><span class="line"><span class="comment">//默认调用该类的iterator()方法获得其Iterator然后进行遍历</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(String item: sampleList)&#123;</span><br><span class="line">  System.out.println(item);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-   <br>
-<h1>References</h1>
-<p>Design Pattern(GOF)</p>
-]]></content>
-      <categories>
-        <category>Design Pattern</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>Design Pattern</tag>
       </tags>
   </entry>
   <entry>
@@ -478,6 +401,83 @@
       </tags>
   </entry>
   <entry>
+    <title>【Design Pattern】Iterator 迭代器模式</title>
+    <url>/2017/01/22/%E3%80%90Design-Pattern%E3%80%91Iterator-%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F/</url>
+    <content><![CDATA[<h1>Class Diagram</h1>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Design%20Pattern%E3%80%91Iterator%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F.png" alt="【Design Pattern】Iterator 迭代器模式"></p>
+<h1>Introduction</h1>
+<p>迭代器模式其目的是将容器的遍历与容器的内部实现解耦，从而利用一种通用统一的方式遍历内部实现各异的多种容器。迭代器模式的使用已经非常普遍，这里不再赘述。此篇博客重点在于介绍迭代器的内部实现，以及在JDK源码中迭代器模式的实际运用。</p>
+<a id="more"></a>
+<h1>Implementation</h1>
+<p>既然是要与容器内部实现解耦，很自然地想到要加一层针对容器的抽象。如何加抽象？这里采用interface的形式。根据上文中的类图，我们可以看到Aggregate接口，这个接口就保证了凡是实现了该接口的容器（不管其内部是如何实现的）都可以利用Iterator对其进行遍历。Aggregate接口声明的createIterator()方法非常关键(对应于java中的iterator()方法），它实现了Iterator与容器的关联绑定。给一个更具体的ConcreteIterator类图：</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Design%20Pattern%E3%80%91Iterator%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F_1.png" alt="【Design Pattern】Iterator 迭代器模式_1"></p>
+<p>具体来说，ConcreteIterator的构造器有一个参数，这个参数必须是一个实现了Aggregate接口的类的对象。这样，通过createIterator()的内部实现  return new ConcreteIterator(this) 使得ConcreteIterator关联了ConcreteAggregate的对象，从而可以直接利用createItertor()返回的Iterator对象来对ConcreteAggregate进行遍历。</p>
+<h1>Examples</h1>
+<blockquote>
+<p>所有【Design Pattern】系列博文的示例代码都可以在这个repo中找到<a href="https://github.com/hippo-jessy/design_pattern" target="_blank" rel="noopener">https://github.com/hippo-jessy/design_pattern</a></p>
+</blockquote>
+<p>这里给出一个实现迭代器模式的一个例子(ConcreteAggregate用ArrayList作为内部结构存储)：</p>
+<ul>
+<li><strong>Aggregate Interface</strong></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Aggregate</span>&lt;<span class="title">E</span>&gt; </span>&#123;</span><br><span class="line">	<span class="function">Iterator&lt;E&gt; <span class="title">createIterator</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><strong>Iterator Interface</strong></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Iterator</span>&lt;<span class="title">E</span>&gt; </span>&#123;</span><br><span class="line">	<span class="function">E <span class="title">next</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function"><span class="keyword">boolean</span> <span class="title">hasNext</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><strong>ConcreteAggregate Class</strong></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ConcreteAggregate</span>&lt;<span class="title">E</span>&gt; <span class="keyword">implements</span> <span class="title">Aggregate</span>&lt;<span class="title">E</span>&gt; </span>&#123;</span><br><span class="line">	<span class="keyword">private</span> ArrayList&lt;E&gt; internalData;</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">ConcreteAggregate</span><span class="params">()</span></span>&#123;</span><br><span class="line">		internalData = <span class="keyword">new</span> ArrayList&lt;E&gt;();</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> Iterator&lt;E&gt; <span class="title">createIterator</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="keyword">new</span> ConcreteIterator&lt;E&gt;(<span class="keyword">this</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">public</span> E <span class="title">get</span><span class="params">(<span class="keyword">int</span> index)</span></span>&#123;</span><br><span class="line">		<span class="keyword">return</span> internalData.get(index);</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">add</span><span class="params">(E element)</span></span>&#123;</span><br><span class="line">		internalData.add(element);</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">size</span><span class="params">()</span></span>&#123;</span><br><span class="line">		<span class="keyword">return</span> internalData.size();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><strong>ConcreteIterator Class</strong></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ConcreteIterator</span>&lt;<span class="title">E</span>&gt; <span class="keyword">implements</span> <span class="title">Iterator</span>&lt;<span class="title">E</span>&gt; </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">private</span> ConcreteAggregate&lt;E&gt; aggregate;</span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">int</span> cursor = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">ConcreteIterator</span><span class="params">(ConcreteAggregate&lt;E&gt; aggregate)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">this</span>.aggregate = aggregate;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> E <span class="title">next</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> aggregate.get(cursor++);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">hasNext</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> (cursor &lt; aggregate.size()) ? <span class="keyword">true</span> : <span class="keyword">false</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><strong>Client 端代码</strong></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Client</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">		ConcreteAggregate&lt;String&gt; aggregate = <span class="keyword">new</span> ConcreteAggregate&lt;String&gt;();</span><br><span class="line">		aggregate.add(<span class="string">"This"</span>);</span><br><span class="line">		aggregate.add(<span class="string">"is"</span>);</span><br><span class="line">		aggregate.add(<span class="string">"a"</span>);</span><br><span class="line">		aggregate.add(<span class="string">"bright"</span>);</span><br><span class="line">		aggregate.add(<span class="string">"day"</span>);</span><br><span class="line">		Iterator&lt;String&gt; iter = aggregate.createIterator();</span><br><span class="line">		<span class="keyword">while</span>(iter.hasNext())&#123;</span><br><span class="line">			System.out.print(iter.next()+<span class="string">"/"</span>);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>运行输出结果为：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">This/is/a/bright/day/</span><br></pre></td></tr></table></figure>
+<br>
+<h1>Extension</h1>
+<p>参照上面的类图和例子，又产生了如下疑问：</p>
+<p>这里产生了一个新的问题，如果ConcreteIterator必须设一个ConcreteAggregate类型的属性，那岂不是每定义一种ConcreteAggregate都得重新定义一个与之对应的ConcreteIterator类？<strong>从某种程度上来说</strong>，java中确实是这样做的。</p>
+<p>为什么说是“从某种程度上“ ？原因主要有两点：</p>
+<ol>
+<li>
+<p>以Collection框架为例，从最初的Iterable接口, Collection接口到最后的ArrayList, LinkedList, HashSet, PriorityQueue等最终实现，中间添加了多重抽象层，比如AbstractCollection, AbstractList等等。因此在JDK中ConcreteAggregate的这个概念变得模糊了。以ArrayList和LinkedList为例，实际上充当ConcreteAggregate的是它们的父类AbstractList。也就是说只需要定义与AbstractList对应的ConcreteIterator类即可，而不必要给ArrayList，LinkedList都创建对应的ConcreteIterator。</p>
+</li>
+<li>
+<p>严格地来说，java是在ConcreteAggregate类中定义一个与之对应的ConcreteIterator<strong>内部类</strong>。这样做其实是一种很明智的做法，从上面的两张类图以及Example中的示例代码我们可以清楚的看到Client端（也就是JDK使用者）通常只会和Aggregate接口，ConcreteAggregate类以及Iterator接口打交道（Client端遍历容器只需要使用Iterator接口暴露的方法即可，没有任何调用ConcreteIterator的需求）。ConcreteIterable类除了在ConcreteAggregate类的createIterator方法中被实例化以外，不会在其他地方实例化。而且这种关联关系存在的意义是为了让ConcreteIterable使用ConcreteAggregate内部的某些方法以便实现Iterator接口定义的next()等方法。很明显在将ConcreteIterable作为ConcreteAggregate的内部类来定义非常合适。甚至可以直接在createIterator方法中定义匿名内部类实现Iterable接口。</p>
+<blockquote>
+<p>适合使用匿名类情形：该类只会在定义的地方被实例化；</p>
+<p>适合使用内部类的特征： 该类需要使用外部类的某些属性方法而该类又不会在外部类以外的地方被调用或实例化。</p>
+</blockquote>
+</li>
+</ol>
+<p>于是根据第二点的启发，上面Example部分的实例代码可以进行改写（Iterator接口用匿名内部类实现，无需专门单独定义ConcreteIterator类）：</p>
+<ul>
+<li><strong>改进版ConcreteAggregate</strong></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ConcreteAggregateOptim</span>&lt;<span class="title">E</span>&gt; <span class="keyword">implements</span> <span class="title">Aggregate</span>&lt;<span class="title">E</span>&gt; </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">private</span> ArrayList&lt;E&gt; internalData;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">ConcreteAggregateOptim</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">this</span>.internalData = <span class="keyword">new</span> ArrayList&lt;E&gt;();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> Iterator&lt;E&gt; <span class="title">createIterator</span><span class="params">()</span> </span>&#123;</span><br><span class="line">      <span class="comment">//使用匿名内部类实现Iterator接口</span></span><br><span class="line">		<span class="keyword">return</span> <span class="keyword">new</span> Iterator&lt;E&gt;() &#123;</span><br><span class="line">			<span class="keyword">private</span> <span class="keyword">int</span> cursor = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">			<span class="meta">@Override</span></span><br><span class="line">			<span class="function"><span class="keyword">public</span> E <span class="title">next</span><span class="params">()</span> </span>&#123;</span><br><span class="line">				<span class="keyword">return</span> get(cursor++);</span><br><span class="line">			&#125;</span><br><span class="line"></span><br><span class="line">			<span class="meta">@Override</span></span><br><span class="line">			<span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">hasNext</span><span class="params">()</span> </span>&#123;</span><br><span class="line">				<span class="keyword">return</span> (cursor &lt; size()) ? <span class="keyword">true</span> : <span class="keyword">false</span>;</span><br><span class="line">			&#125;</span><br><span class="line"></span><br><span class="line">		&#125;;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> E <span class="title">get</span><span class="params">(<span class="keyword">int</span> index)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> internalData.get(index);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">add</span><span class="params">(E element)</span> </span>&#123;</span><br><span class="line">		internalData.add(element);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">size</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> internalData.size();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>JDK源码中对迭代器模式的实现和上面这段改进代码比较类似，只不过它更倾向于采用内部类而非匿名内部类。JDK中迭代器模式的简化版类图（中间省略了几层继承关系）如下：</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Design%20Pattern%E3%80%91Iterator%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F_2.png" alt="【Design Pattern】Iterator 迭代器模式_2"></p>
+<p>这里JDK库中<strong>Iterable接口相当于上文第一张类图中的Aggregate接口</strong>，Iterable接口中声明的方法Iterator()对应于createIterator()方法，<strong>Java 中的Iterator接口直接对应与之前的Iterator接口</strong>，AbstractList类对应于ConcreteAggregate类，而AbstractList类中的内部类Itr实现了Iterator接口，相当于ConcreteIterator。ArrayList和LinkedList均为AbstractList的子类，可以直接使用父类的iterator()方法得到由内部类Itr向上转型后的Iterator接口引用，通过Iterator接口暴露的hasNext, next等方法最终实现遍历。Client端代码一般只会和Iterator接口以及ArrayList，LinkedList等类发生关联（有时也会使用上面类图中省略了的List接口，Collection接口等，但是不会有使用内部类Iter的需求）。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">ArrayList&lt;String&gt; sampleList = <span class="keyword">new</span> ArrayList&lt;String&gt;();</span><br><span class="line">Collections.addAll(sampleList,<span class="string">"a"</span>,<span class="string">"b"</span>,<span class="string">"c"</span>,<span class="string">"d"</span>);</span><br><span class="line"><span class="comment">//sampleList.iterator()调用的是ArrayList的父类AbstractList中实现Iterable接口的方法</span></span><br><span class="line">Iterator&lt;String&gt; iter = sampleList.iterator();</span><br><span class="line"><span class="keyword">while</span>(iter.hasNext())&#123;</span><br><span class="line">  System.out.println(iter.next());</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//凡是实现了Iterable接口的类都可以用foreach形式来遍历其内部元素，原理是foreach会</span></span><br><span class="line"><span class="comment">//默认调用该类的iterator()方法获得其Iterator然后进行遍历</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(String item: sampleList)&#123;</span><br><span class="line">  System.out.println(item);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+   <br>
+<h1>References</h1>
+<p>Design Pattern(GOF)</p>
+]]></content>
+      <categories>
+        <category>Design Pattern</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>Design Pattern</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【Java You Don&#39;t Know - Item 1】为什么long类型的变量在赋值时数值常量要加“L”</title>
     <url>/2017/01/21/%E3%80%90Java-You-Don-t-Know-Item-1%E3%80%91%E4%B8%BA%E4%BB%80%E4%B9%88long%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8F%98%E9%87%8F%E5%9C%A8%E8%B5%8B%E5%80%BC%E6%97%B6%E6%95%B0%E5%80%BC%E5%B8%B8%E9%87%8F%E8%A6%81%E5%8A%A0%E2%80%9CL%E2%80%9D/</url>
     <content><![CDATA[<p>下面这段代码大家应该多很熟悉，也都知道Java赋值long类型变量时，一定要在常量后面加上“L”或“l”。这篇笔记就简单展开讨论其原因。</p>
@@ -546,72 +546,6 @@
       </categories>
       <tags>
         <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【深入理解Java虚拟机-0】思维导图汇总</title>
-    <url>/2017/02/03/%E3%80%90%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA-0%E3%80%91%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>此篇博文主要用于汇总JVM初级学习阶段的思维导图，主要根据《深入理解Java虚拟机》书中的脉络，结合JVM Specification中的知识点进行拓展和总结。思维导图通过<strong>iThoughtsX 4.3</strong>绘制，文中会提供原始格式文件(低于4.3版本的iThoughtsX可能无法打开原始文件)和导出的图片。由于有些章节的思维导图过大，我可能会进行拆分，但是尽量不会影响理解。</p>
-<p>内容有些杂乱，主要用作个人笔记整理，同时也希望这些思维导图能帮助大家更好地理解《深入理解Java虚拟机》(配合JVM Specification食用更佳）。有些导图目前还是半成品，暂时不会放上来，文章持续更新中。</p>
-<a id="more"></a>
-<h2 id="第二部分-自动内存管理">第二部分 自动内存管理</h2>
-<h3 id="第二章-java内存区域与内存溢出异常">第二章 Java内存区域与内存溢出异常</h3>
-<p>这一章节主要涉及三方面的内容：</p>
-<ul>
-<li>运行时数据区域</li>
-<li>HotSpot虚拟机对象的表示</li>
-<li>OutOfMemoryError的相关实践</li>
-</ul>
-<p>思维导图如下( 点击放大再放大😑 ) ：<img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Java%20Memory%20Area.pdf" alt></p>
-<p>iThoughtsX原格式文件地址:</p>
-<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Java%20Memory%20Area.itmz" target="_blank" rel="noopener">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】%5BMind%20Map%5D%20Java%20Memory%20Area.itmz</a></p>
-<h3 id="第三章-垃圾收集器与内存分配策略">第三章 垃圾收集器与内存分配策略</h3>
-<p><a href="http://qifuguang.me/2015/09/02/%5BJava%E5%B9%B6%E5%8F%91%E5%8C%85%E5%AD%A6%E4%B9%A0%E4%B8%83%5D%E8%A7%A3%E5%AF%86ThreadLocal/" target="_blank" rel="noopener">http://qifuguang.me/2015/09/02/[Java并发包学习七]解密ThreadLocal/</a></p>
-<h2 id="第三部分-虚拟机执行子系统">第三部分 虚拟机执行子系统</h2>
-<h3 id="第六章-类文件结构">第六章 类文件结构</h3>
-<p>这一章节思维导图拆分为两部分，第一部分是关于Class类文件结构的，第二部分是关于字节码指令简介的。由于第二部分知识点比较琐碎，目前还在考虑对此部分是否有制作思维导图的必要。首先献上第一部分思维导图 ( 点击放大再放大😑 ) ：<img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91Class%20File%20Mind%20Map.pdf" alt="Class File Mind Map"></p>
-<p>iThoughtsX原格式文件地址:</p>
-<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91Class%20File%20Mind%20Map.itmz" target="_blank" rel="noopener">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】Class%20File%20Mind%20Map.itmz</a></p>
-<h3 id="第七章-虚拟机类加载机制">第七章 虚拟机类加载机制</h3>
-<p>这一章节分为类加载机制以及类加载器两部分。</p>
-<h4 id="类加载机制">类加载机制</h4>
-<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading%20.pdf?%20v=20170214" alt="Class Loading"></p>
-<p>iThoughtsX原格式文件地址:</p>
-<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading%20.itmz" target="_blank" rel="noopener">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】%5BMind%20Map%5D%20Class%20Loading%20.itmz</a></p>
-<h4 id="类加载器">类加载器</h4>
-<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading_1%20.pdf?%20imageView2/3/w/400/h/400/q/75" alt></p>
-<p>iThoughtsX原格式文件地址:</p>
-<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading_1%20.itmz" target="_blank" rel="noopener">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】%5BMind%20Map%5D%20Class%20Loading_1%20.itmz</a></p>
-<h3 id="第八章-虚拟机字节码执行引擎">第八章 虚拟机字节码执行引擎</h3>
-<p>这一章节主要分为三个部分：</p>
-<ul>
-<li>
-<p>运行时栈帧结构</p>
-</li>
-<li>
-<p>方法调用</p>
-</li>
-<li>
-<p>基于栈的字节码解释执行引擎</p>
-</li>
-</ul>
-<p>这三部分都集中在下面这张图中进行总结：<img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20JVM%20Bytecode%20Execution%20Engine.pdf" alt></p>
-<p>iThoughtsX原格式文件地址:</p>
-<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20JVM%20Bytecode%20Execution%20Engine.itmz" target="_blank" rel="noopener">【Understanding%20the%20JVM】%5BMind%20Map%5D%20JVM%20Bytecode%20Execution%20Engine.itmz</a></p>
-<h2 id="第四部分-程序编译与代码优化">第四部分 程序编译与代码优化</h2>
-<p>敬请期待。。。😪</p>
-<h2 id="第五部分-高效并发">第五部分 高效并发</h2>
-<p>这一部分书中主要分为两个章节来讲解： Java内存模型与线程、线程安全与锁优化。但是《深入理解Java虚拟机》并没有用很大的篇幅来讲并发这一部分，因此还需结合《Java Concurrency in Practice》等书来加深理解。更多关于java并发的总结可以关注Java Primer系列的相关博文。</p>
-<h3 id="第十二章-java内存模型与线程">第十二章 Java内存模型与线程</h3>
-<h3 id="第十三章-线程安全与锁优化">第十三章 线程安全与锁优化</h3>
-]]></content>
-      <categories>
-        <category>JVM</category>
-        <category>深入理解Java虚拟机</category>
-      </categories>
-      <tags>
-        <tag>JVM</tag>
-        <tag>MindMap</tag>
       </tags>
   </entry>
   <entry>
@@ -732,6 +666,72 @@
       <tags>
         <tag>Java</tag>
         <tag>JVM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【深入理解Java虚拟机-0】思维导图汇总</title>
+    <url>/2017/02/03/%E3%80%90%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA-0%E3%80%91%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<p>此篇博文主要用于汇总JVM初级学习阶段的思维导图，主要根据《深入理解Java虚拟机》书中的脉络，结合JVM Specification中的知识点进行拓展和总结。思维导图通过<strong>iThoughtsX 4.3</strong>绘制，文中会提供原始格式文件(低于4.3版本的iThoughtsX可能无法打开原始文件)和导出的图片。由于有些章节的思维导图过大，我可能会进行拆分，但是尽量不会影响理解。</p>
+<p>内容有些杂乱，主要用作个人笔记整理，同时也希望这些思维导图能帮助大家更好地理解《深入理解Java虚拟机》(配合JVM Specification食用更佳）。有些导图目前还是半成品，暂时不会放上来，文章持续更新中。</p>
+<a id="more"></a>
+<h2 id="第二部分-自动内存管理">第二部分 自动内存管理</h2>
+<h3 id="第二章-java内存区域与内存溢出异常">第二章 Java内存区域与内存溢出异常</h3>
+<p>这一章节主要涉及三方面的内容：</p>
+<ul>
+<li>运行时数据区域</li>
+<li>HotSpot虚拟机对象的表示</li>
+<li>OutOfMemoryError的相关实践</li>
+</ul>
+<p>思维导图如下( 点击放大再放大😑 ) ：<img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Java%20Memory%20Area.pdf" alt></p>
+<p>iThoughtsX原格式文件地址:</p>
+<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Java%20Memory%20Area.itmz" target="_blank" rel="noopener">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】%5BMind%20Map%5D%20Java%20Memory%20Area.itmz</a></p>
+<h3 id="第三章-垃圾收集器与内存分配策略">第三章 垃圾收集器与内存分配策略</h3>
+<p><a href="http://qifuguang.me/2015/09/02/%5BJava%E5%B9%B6%E5%8F%91%E5%8C%85%E5%AD%A6%E4%B9%A0%E4%B8%83%5D%E8%A7%A3%E5%AF%86ThreadLocal/" target="_blank" rel="noopener">http://qifuguang.me/2015/09/02/[Java并发包学习七]解密ThreadLocal/</a></p>
+<h2 id="第三部分-虚拟机执行子系统">第三部分 虚拟机执行子系统</h2>
+<h3 id="第六章-类文件结构">第六章 类文件结构</h3>
+<p>这一章节思维导图拆分为两部分，第一部分是关于Class类文件结构的，第二部分是关于字节码指令简介的。由于第二部分知识点比较琐碎，目前还在考虑对此部分是否有制作思维导图的必要。首先献上第一部分思维导图 ( 点击放大再放大😑 ) ：<img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91Class%20File%20Mind%20Map.pdf" alt="Class File Mind Map"></p>
+<p>iThoughtsX原格式文件地址:</p>
+<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91Class%20File%20Mind%20Map.itmz" target="_blank" rel="noopener">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】Class%20File%20Mind%20Map.itmz</a></p>
+<h3 id="第七章-虚拟机类加载机制">第七章 虚拟机类加载机制</h3>
+<p>这一章节分为类加载机制以及类加载器两部分。</p>
+<h4 id="类加载机制">类加载机制</h4>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading%20.pdf?%20v=20170214" alt="Class Loading"></p>
+<p>iThoughtsX原格式文件地址:</p>
+<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading%20.itmz" target="_blank" rel="noopener">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】%5BMind%20Map%5D%20Class%20Loading%20.itmz</a></p>
+<h4 id="类加载器">类加载器</h4>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading_1%20.pdf?%20imageView2/3/w/400/h/400/q/75" alt></p>
+<p>iThoughtsX原格式文件地址:</p>
+<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20Class%20Loading_1%20.itmz" target="_blank" rel="noopener">http://ojnnon64z.bkt.clouddn.com/【Understanding%20the%20JVM】%5BMind%20Map%5D%20Class%20Loading_1%20.itmz</a></p>
+<h3 id="第八章-虚拟机字节码执行引擎">第八章 虚拟机字节码执行引擎</h3>
+<p>这一章节主要分为三个部分：</p>
+<ul>
+<li>
+<p>运行时栈帧结构</p>
+</li>
+<li>
+<p>方法调用</p>
+</li>
+<li>
+<p>基于栈的字节码解释执行引擎</p>
+</li>
+</ul>
+<p>这三部分都集中在下面这张图中进行总结：<img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20JVM%20Bytecode%20Execution%20Engine.pdf" alt></p>
+<p>iThoughtsX原格式文件地址:</p>
+<p><a href="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Understanding%20the%20JVM%E3%80%91%5BMind%20Map%5D%20JVM%20Bytecode%20Execution%20Engine.itmz" target="_blank" rel="noopener">【Understanding%20the%20JVM】%5BMind%20Map%5D%20JVM%20Bytecode%20Execution%20Engine.itmz</a></p>
+<h2 id="第四部分-程序编译与代码优化">第四部分 程序编译与代码优化</h2>
+<p>敬请期待。。。😪</p>
+<h2 id="第五部分-高效并发">第五部分 高效并发</h2>
+<p>这一部分书中主要分为两个章节来讲解： Java内存模型与线程、线程安全与锁优化。但是《深入理解Java虚拟机》并没有用很大的篇幅来讲并发这一部分，因此还需结合《Java Concurrency in Practice》等书来加深理解。更多关于java并发的总结可以关注Java Primer系列的相关博文。</p>
+<h3 id="第十二章-java内存模型与线程">第十二章 Java内存模型与线程</h3>
+<h3 id="第十三章-线程安全与锁优化">第十三章 线程安全与锁优化</h3>
+]]></content>
+      <categories>
+        <category>JVM</category>
+        <category>深入理解Java虚拟机</category>
+      </categories>
+      <tags>
+        <tag>JVM</tag>
+        <tag>MindMap</tag>
       </tags>
   </entry>
   <entry>
