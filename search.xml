@@ -142,7 +142,6 @@
 <p><a href="https://my.oschina.net/goldenshaw/blog/471370" target="_blank" rel="noopener">文本在内存中的编码(3)</a></p>
 <p>如果对Java中的字符操作比较感兴趣也可以看看下面这些问题的讨论：</p>
 <p><a href="http://stackoverflow.com/questions/4659659/why-does-inputstreamread-return-an-int-and-not-a-byte" target="_blank" rel="noopener">why does InputStream#read() return an int and not a byte</a></p>
-<p>磨磨唧唧，终于写完了，估计你们早就看累了。还是那句老话，文章如有纰误，欢迎大家在评论区批评斧正，提前谢过~~</p>
 <h2 id="references">References</h2>
 <p>[1] <a href="http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html" target="_blank" rel="noopener">http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html</a></p>
 <p>[2] <a href="http://wenku.baidu.com/view/cb9fe505cc17552707220865.html" target="_blank" rel="noopener">http://wenku.baidu.com/view/cb9fe505cc17552707220865.html</a></p>
@@ -235,97 +234,6 @@
       <tags>
         <tag>Mac</tag>
         <tag>Config</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Resolutions for the Later Half of 2017</title>
-    <url>/2017/05/16/Resolutions-for-the-Later-Half-of-2017/</url>
-    <content><![CDATA[<p>计划做过无数，每次计划都各有各的亮点，然而却通常注定有一个相似的失败结局。何谓失败？这里并不要求百分之百完成计划，完成80%左右就基本可以算是挑战成功。然而我却很少有完成度高于60%的计划。</p>
-<p>原因呢？很简单，好大喜功，眼高手低。总想着把所有事情都做好，往往最后一事无成。这几年逐渐清楚了自己最核心的兴趣和目标，并且明确了自己的性格和能力的优劣势所在，希望以后能将有限的精力集中起来，结合自身实际情况，追求局部最优解。</p>
-<p>希望这次的半年计划能基本做到脚踏实地，算是一个新的起点吧。（以下计划按优先级排序）</p>
-<a id="more"></a>
-<h4 id="1-调整思维模式">1. 调整思维模式</h4>
-<p>​	重点，慢慢来，主要是下面这几点：</p>
-<blockquote><font color="green" size="3px">1.1 专注于自身的局部最优解，与他人比较只是为了更客观地衡量自身水平以便查漏补缺，而不是为了竞争</font></blockquote> <br>
-<blockquote><font color="green" size="3px">1.2 抓住核心需求和主要矛盾，不要总想着事事尽善尽美，人的时间精力有限，过分陷于细节只会让自己迷失方向</font></blockquote> <br>
-<blockquote><font color="green" size="3px">1.3 明确主要矛盾之后，凡是对自己成长有利，对他人无害的事情放手去干，不要瞻前顾后，拒绝道德绑架</font></blockquote> <br>
-<blockquote><font color="green" size="3px">1.4 对自己有客观稳定的认识和评价，不因他人的批评或表扬产生过多的自我否定或自我膨胀。学着看到自己的进步，学着接受自己的不足，学着避免情绪内耗</font></blockquote> <br>
-<h4 id="2-开始适度运动">2. 开始适度运动</h4>
-<p>​	从坚持某一项运动开始，主要是思想上需要开始重视，一周至少保证一次较完整的运动（两小时）</p>
-<h4 id="3-技术上">3. 技术上</h4>
-<p>​	除了学习工作中必备的技能学习，业余时间重点花在以下几方面（注意优先级）</p>
-<blockquote><font color="green" size="3px">3.1 坚持写技术博客，每周一篇</font></blockquote> <br>
-<p>​	尽量在周五或周六完成，选择更有价值的话题，阐述记录最核心的内容，不要过分陷于细节</p>
-<blockquote><font color="green" size="3px">3.2 算法和计算机基础的学习</font></blockquote> <br>
-<p>​       算法分两个方面，一个是基础算法题训练，以LeetCode为主，尽量每天都练下手，注意分类总结，半年下来至少150道（精细分析和总结，思维训练为导向，非面试导向）。另一方面是其他高级算法的学习和运用，这一方面主要通过写博客来驱动</p>
-<p>​       计算机基础目前的学习重点在于网络和分布式这两块，网络这一部分主要靠看书（TCP/IP详解卷一）和写博客，分布式这一块尽量跟着6.824做lab（根据自己的实际情况调整进度，不强求跟完，但是至少跟一半）</p>
-<blockquote><font color="green" size="3px">3.3 Java语言高级特性以及JVM</font></blockquote> <br>
-<p>​	语言方面，重点在IO、多线程以及语言新特性</p>
-<p>​	JVM，重点主要在实践经验积累和总结，get your hands dirty</p>
-<blockquote><font color="green" size="3px">3.4 Linux</font></blockquote> <br>
-<p>​	Linux的内容比较琐碎，主要还是以动手实践为主，下半年最核心的计划是熟练shell编程</p>
-<h4 id="4-生活上">4. 生活上</h4>
-<blockquote><font color="green" size="3px">4.1 规律作息</font></blockquote> <br>
-<p>​	尽量1点之前睡，使用sleep cycle进行统计</p>
-<p>​	每晚睡前明确当日的收获，以及第二天的首要任务</p>
-<blockquote><font color="green" size="3px">4.2 琵琶</font></blockquote> <br>
-<p>​	重新上课（不强求，时间不够就自己练，兴趣驱动），以指法、古曲训练为主。半年目标：每月至少练一次，练熟《送我一枝玫瑰花》</p>
-<blockquote><font color="green" size="3px">4.5 英语口语</font></blockquote> <br>
-<p>​	每两周周末一次conversation exchange（难以达成的情况下，至少保证每月一次）</p>
-<p>下面总结成表格，以便年终的时候查看计划完成情况（按优先级排序）。</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Task List</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">1. 专注于自身的局部最优解</td>
-</tr>
-<tr>
-<td style="text-align:center">2. 抓住核心需求和主要矛盾</td>
-</tr>
-<tr>
-<td style="text-align:center">3. 放手去干，不要瞻前顾后，拒绝道德绑架</td>
-</tr>
-<tr>
-<td style="text-align:center">4. 对自己有客观稳定的认识和评价</td>
-</tr>
-<tr>
-<td style="text-align:center">5. 坚持一项运动</td>
-</tr>
-<tr>
-<td style="text-align:center">6. 坚持写技术博客，每周一篇</td>
-</tr>
-<tr>
-<td style="text-align:center">7. 算法和计算机基础的学习</td>
-</tr>
-<tr>
-<td style="text-align:center">8. Java语言高级特性以及JVM</td>
-</tr>
-<tr>
-<td style="text-align:center">9. Linux</td>
-</tr>
-<tr>
-<td style="text-align:center">10. 规律作息</td>
-</tr>
-<tr>
-<td style="text-align:center">11. 练熟《送我一枝玫瑰花》，至少每月一次练习</td>
-</tr>
-<tr>
-<td style="text-align:center">12. conversation exchange，至少每月一次</td>
-</tr>
-</tbody>
-</table>
-<p>还是写了太多具象的目标，其实凡是“每X一次”这种计划就基本是作死。但是比起以前的各种宏伟壮观，每每想起都让我心潮澎湃的计划，这次的计划已经接地气很多了。慢慢来吧，年底再来打脸。</p>
-]]></content>
-      <categories>
-        <category>My Life</category>
-        <category>Thinking and Summary</category>
-      </categories>
-      <tags>
-        <tag>Thinking</tag>
       </tags>
   </entry>
   <entry>
@@ -641,73 +549,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【Spark概念模型-2】RDD &amp; Dependency &amp; 宽窄依赖划分</title>
-    <url>/2016/05/15/%E3%80%90Spark%E6%A6%82%E5%BF%B5%E6%A8%A1%E5%9E%8B-2%E3%80%91RDD-Dependency-%E5%AE%BD%E7%AA%84%E4%BE%9D%E8%B5%96%E5%88%92%E5%88%86/</url>
-    <content><![CDATA[<h2 id="rdd">RDD</h2>
-<p>RDD是由诸多partition所构成的分布式只读数据集以及相关算子的封装，它只是一个逻辑概念上的数据集而并非是一个将所有数据都载入内存的数据结构（这里只是简单提一下RDD，在另一篇博客详细讲解RDD的概念，本文重点在于Dependency）。</p>
-<h2 id="dependency">Dependency</h2>
-<p>Dependency描述了RDD之间的依赖关系，每个RDD内部都记录了它与其他RDD（parent RDD）的依赖关系。通过Dependency类的getParents(partitionId:Int)我们可以获取当前RDD的每个partition所依赖的parent partitions。</p>
-<a id="more"></a>
-<p>RDD之间的依赖关系可以分为Narrow Dependency和Shuffle(Wide) Dependency。到底应该如何区分RDD之间的关系是宽依赖还是窄依赖？</p>
-<p>这主要取决于parent RDD的一个partition被child RDD的多少个partition所利用：如果parent RDD的每一个partition最多只会被child RDD的一个partition利用，则父子RDD之间的关系为窄依赖，相反，如果被child RDD的多个partition利用，则为宽依赖。</p>
-<p>这种定义无疑是正确的，但是并不是很形象</p>
-<p>现在把每一条数据看做是一个带有序号和颜色的小球（序号可以重复），将partition看做是放小球的盒子（盒子也有序号且序号不重复），一个RDD是指一个持有多个盒子的人。每个人都有自己放置小球的策略，将partitioner看做是人将小球放置到盒子中的策略（比如常见的HashPartitioner)，而且每个人根据自己的职业都有自己对小球处理的喜好。现在进行盒子传递（一个人把盒子给另一个人）。传递盒子的人是父RDD,接受盒子的人是子RDD，由于接受盒子的人有自己的处理喜好和放置小球的策略，因此凡是进行了盒子传递必定会进行小球的处理和重新放置（相当于transformation）。</p>
-<blockquote>
-<p>“不同的算子会产生不同的RDD”，这句话其实并不是那么准确，我们知道每个RDD都有compute方法，但是不同的RDD对应的compute实现并不相同（如MappedRDD的compute方法里对每一条数据进行了map操作，相当于在RDD内部包含了算子定义的操作，详见<a href="../Spark%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/RDD%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90">RDD源码解析</a>）。因此，个人觉得这句话改成不同的RDD带有不同的算子更为恰当。同理，RDD中有一个属性partitioner，因此，分区策略也是RDD的固有属性。</p>
-</blockquote>
-<p>对应于现在的场景，不同的人根据自己的职业有不同的处理小球的喜好，且有自己放置小球的策略，对应于不同的RDD带有不同的算子，且传入了不同的partitioner。</p>
-<p>其实上面的比喻也可以帮助我们更好地理解RDD，如果我们想在一群人之间传递盒子以便让不同职业的人对盒子中的小球进行处理（此过程相当于将一系列partition中的数据用不同算子处理以得到目标结果），则对于每个人我们至少需要五个信息：当前人所持有的所有盒子的列表，当前人对小球的处理喜好，传递盒子给当前人的人是哪些人，当前人对小球的放置策略，以及当前人放置盒子的地点</p>
-<p>这恰好和<a href="./RDD%E7%9A%84%E6%A6%82%E5%BF%B5%E7%90%86%E8%A7%A3">RDD的概念理解</a>中提到过RDD类的五个重要特征相对应：<br>
-1、partitions的列表（“当前人”所持有的盒子列表)<br>
-2、compute方法来计算iterator（“当前人”对小球的处理喜好）<br>
-3、getDependencies(传递给“当前人”盒子的人有哪些)<br>
-4、partitioner（“当前人”放置小球的策略）<br>
-5、getPreferredLocations（“当前人”放置盒子的位置）</p>
-<p>现在有一个人持有多个箱子，他按照放置策略A放置好了小球，你可以选择让他把箱子传给下面不同职业的人</p>
-<p>将算子作用于小球的变化过程看做是如下操作：</p>
-<blockquote>
-<p>eg：<br>
-map() -&gt; 当做是给小球涂色 -&gt; 对应于MappedRDD，相当于将盒子传递给了一个画匠</p>
-</blockquote>
-<blockquote>
-<p>filter() -&gt; 当做是从盒子里取出小球扔掉  -&gt; 对应于FilteredRDD，相当于将盒子传递给了一个投手。。。想不到更合适的职业了。。。</p>
-</blockquote>
-<blockquote>
-<p>union(rdd) -&gt; 当做是将多个小盒子合成一个大盒子（所有被合并小盒子的编号均可看做合并后大盒子的编号）-&gt; 对应于UnionRDD，相当于将盒子传递给了一个装箱工人</p>
-<p>join(rdd,partitioner) -&gt; 当做是将号码相同的小球（不管是不是在一个盒子里）熔成一个大球，并根据放置策略partitioner重新放置 -&gt; 相当于将盒子传递给了一个铁匠</p>
-</blockquote>
-<p>如果经过上述某个操作后，对于所有留下来的小球，如果原来在同一个盒子里的小球现在全部还在同一个盒子里，则为窄依赖；如果任何一个小球和原来在同一个盒子里的其他小球分开了，则为宽依赖。 通俗一点来说，不管被传递的人怎么折腾，原本在同一个盒子里的小球都还在一个盒子里（或者衍生的大盒子），这个传递关系就是窄依赖；否则，则是宽依赖。</p>
-<p>逐一看一下上面列举的算子，显然，map和filter是窄依赖，因为都只是简单的传递了盒子，对单个小球涂色或扔掉，并没有传入新的partitioner，即接收盒子的人并没有对小球进行重新放置。因此所有小球都待在自己原来的盒子里，显然是窄依赖。对于union，也是窄依赖，因为每个小球都会在原来小盒子所衍生的大盒子中。</p>
-<h3 id="join">join</h3>
-<p>对于join(rddB)既可能是窄依赖，也有可能是宽依赖，实际上讨论join是宽依赖还是窄依赖其实相当于讨论cogroup，可以参看下面源码可知，join内部是调用cogroup实现的</p>
-<figure class="highlight scala"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">join</span></span>[<span class="type">W</span>](other: <span class="type">RDD</span>[(<span class="type">K</span>, <span class="type">W</span>)], partitioner: <span class="type">Partitioner</span>): <span class="type">RDD</span>[(<span class="type">K</span>, (<span class="type">V</span>, <span class="type">W</span>))] = &#123;</span><br><span class="line">   <span class="keyword">this</span>.cogroup(other, partitioner).flatMapValues( pair =&gt;</span><br><span class="line">     <span class="keyword">for</span> (v &lt;- pair._1; w &lt;- pair._2) <span class="keyword">yield</span> (v, w)</span><br><span class="line">   )</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
-<p>我们需要分情况讨论：</p>
-<h4 id="窄依赖join">窄依赖join</h4>
-<p>想要窄依赖，则必须保证原来同一个盒子里的球传递个另一个人之后依然在同一个盒子里。</p>
-<p>如果传递盒子的人和接受盒子的人有相同的放置小球的策略，并且传递盒子的人和接受盒子的人的盒子数目相同，则join为窄依赖，否则为宽依赖。比如传递者A和传递者B（rddB）两人都采用了HashParitioner（比如用小球的序号对盒子的序号取余），则二人所持有的相同序号的小球一定放在序号相同的盒子里，join之后接受盒子的人也使用同样的HashParitioner，则熔成的打球一定还会被放置在序号相同的盒子里，这样看来，原本放在盒子1中的小球最后一定还是会被放置在盒子1中。（如后文图中的join with inputs co-partitioned）</p>
-<h4 id="宽依赖join">宽依赖join</h4>
-<p>大多数情况的join都是宽依赖，第一个人将相同序号的球打散放置在不同的盒子里，传递给第二个人之后，如果采用不同的放置策略，基本都会使原本在同一个盒子里的球分散到不同的盒子中去。</p>
-<p>这种区别也就是我们常见的join with inputs co-partitioned 和 join with inputs not co-partitioned(如下图所示)</p>
-<blockquote>
-<p>下图中的 join with inputs co-partitioned 对应于上述窄依赖的情况3<br>
-图中涉及到一个人向另一个人传递盒子以及两个人向第三个人传递盒子的情况</p>
-</blockquote>
-<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Spark%E6%A6%82%E5%BF%B5%E6%A8%A1%E5%9E%8B-2%E3%80%91RDD%20&amp;%20Dependency%20&amp;%20%E5%AE%BD%E7%AA%84%E4%BE%9D%E8%B5%96%E5%88%92%E5%88%86.png" alt></p>
-<p>实际上我们也可以从源码角度来看如何区分cogroup是否为宽依赖，cogroup方法实际上创建了CoGroupedRDD，该RDD的getDependencies方法如下：</p>
-<figure class="highlight scala"><table><tr><td class="code"><pre><span class="line"><span class="keyword">override</span> <span class="function"><span class="keyword">def</span> <span class="title">getDependencies</span></span>: <span class="type">Seq</span>[<span class="type">Dependency</span>[_]] = &#123;</span><br><span class="line"> <span class="comment">//rdds是CoGroupedRDD的父RDD列表，part是CoGroupedRDD的partitioner</span></span><br><span class="line">   rdds.map &#123; rdd: <span class="type">RDD</span>[_ &lt;: <span class="type">Product2</span>[<span class="type">K</span>, _]] =&gt;</span><br><span class="line">     <span class="keyword">if</span> (rdd.partitioner == <span class="type">Some</span>(part)) &#123;</span><br><span class="line">       logDebug(<span class="string">"Adding one-to-one dependency with "</span> + rdd)</span><br><span class="line">       <span class="keyword">new</span> <span class="type">OneToOneDependency</span>(rdd)</span><br><span class="line">     &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">       logDebug(<span class="string">"Adding shuffle dependency with "</span> + rdd)</span><br><span class="line">       <span class="keyword">new</span> <span class="type">ShuffleDependency</span>[<span class="type">K</span>, <span class="type">Any</span>, <span class="type">CoGroupCombiner</span>](rdd, part, serializer)</span><br><span class="line">     &#125;</span><br><span class="line">   &#125;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
-<p>代码逻辑非常清晰，如果CoGroupedRDD和其父RDD有相同的partitioner则二者关系为窄依赖，否则为宽依赖。</p>
-<h2 id="references">References</h2>
-<p><a href="http://smallx.me/2016/06/07/spark%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/" target="_blank" rel="noopener">http://smallx.me/2016/06/07/spark%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/</a>  <a href="https://github.com/JerryLead/SparkInternals/blob/master/markdown/2-JobLogicalPlan.md" target="_blank" rel="noopener">https://github.com/JerryLead/SparkInternals/blob/master/markdown/2-JobLogicalPlan.md</a>  <a href="https://github.com/JerryLead/SparkInternals/blob/master/markdown/3-JobPhysicalPlan.md" target="_blank" rel="noopener">https://github.com/JerryLead/SparkInternals/blob/master/markdown/3-JobPhysicalPlan.md</a></p>
-]]></content>
-      <categories>
-        <category>Spark</category>
-        <category>Spark概念模型</category>
-      </categories>
-      <tags>
-        <tag>Spark</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【深入理解Java虚拟机-0】思维导图汇总</title>
     <url>/2017/02/03/%E3%80%90%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA-0%E3%80%91%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%B1%87%E6%80%BB/</url>
     <content><![CDATA[<p>此篇博文主要用于汇总JVM初级学习阶段的思维导图，主要根据《深入理解Java虚拟机》书中的脉络，结合JVM Specification中的知识点进行拓展和总结。思维导图通过<strong>iThoughtsX 4.3</strong>绘制，文中会提供原始格式文件(低于4.3版本的iThoughtsX可能无法打开原始文件)和导出的图片。由于有些章节的思维导图过大，我可能会进行拆分，但是尽量不会影响理解。</p>
@@ -890,6 +731,176 @@ map() -&gt; 当做是给小球涂色 -&gt; 对应于MappedRDD，相当于将盒�
       </categories>
       <tags>
         <tag>Java</tag>
+        <tag>JVM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Design Pattern】Singleton 单例模式</title>
+    <url>/2017/02/20/%E3%80%90Design-Pattern%E3%80%91Singleton-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/</url>
+    <content><![CDATA[<p>单例模式应该来说是23种设计模式中最简单的一种，它仅关注于如何保证让一个类只有一个实现对象，不涉及类与类之间的关系。但是由于线程安全等问题，单例模式实际上又并不像它看上去那么简单。很早之前开始构思这篇博文，无奈在写的过程中逐渐发现单例模式实在是个深坑，一直拖到现在都没完全填完这个坑。鉴于我对多线程以及JVM了解得并不深入，文章中如有纰误，欢迎指正。</p>
+<p>本文将主要介绍单例模式的五种常见的实现方法，并且基于线程安全，破解方法，垃圾回收，运行性能四个方面对这五种实现方式进行分析比较。</p>
+<a id="more"></a>
+<h2 id="单例模式">单例模式</h2>
+<p>单例模式是创建类模式之一，其主要特点如下：</p>
+<ol>
+<li>确保单例类只有一个实例</li>
+<li>该单例类自行实例化并向整个系统提供该实例</li>
+</ol>
+<p>单例模式有五种常见的实现方式，按照是否延迟加载(Initialization On Demand)，可以分为懒加载和非懒加载两大类。尽管几种实现方式各不相同，但是从根本上讲，为了达到唯一化实例的目的，都是采用了同一种思路：限制创建+限制更改。</p>
+<ol>
+<li>限制创建，创建实例的途径被封装在单例类中：私有化构造器，禁止外界构造实例，单例类的唯一实例是在单例类内部被创建</li>
+<li>限制更改，更改实例的途径被切断：该单例类只提供给外界“读取”该单例实例引用的权限，从而限制外界更改单例类中的唯一实例</li>
+</ol>
+<p>然而，如果仅仅满足上面两点，仅仅能保证单例类只有一个实例，却无法保证线程安全。当单例对象被多个线程共享时，如果单例对象没有被安全发布或者访问单例类状态时存在竞态条件(Race Condition)时，则会出现线程安全问题。</p>
+<h2 id="五种实现">五种实现</h2>
+<h3 id="1-饿汉式-eager-initialization">1. 饿汉式(Eager Initialization)</h3>
+<p>饿汉式的主要特征在于eager initialization，它在类初始化的时候就完成了唯一单例对象的创建，而不是等到真正需要用到单例对象的时候才创建。</p>
+<p>为了满足上文中提到的“限制创建+限制更改”的条件，饿汉式提出了一种解决方案（下面解释比较绕，仅作参考）：</p>
+<p><strong>为了限制外界创建实例</strong>，饿汉式采用私有化构造器，并保证唯一实例在单例类内部创建，具体实现是将单例对象设计成单例类的一个域，采用eager initialization在域初始化的时候创建唯一的单例实例；</p>
+<p><strong>为了禁止外界更改唯一单例对象的引用地址</strong>，必须使得外界只能“读取”单例实例的引用，于是考虑将该域的访问权限设置为private，再额外提供一个“只读”的方法来访问该域。由于唯一的实例保存在单例类的内部，并且在单例类内部被创建，外界没有办法创建单例对象，进而无法访问单例类的实例方法，于是这个暴露给外界的“只读”方法只能是静态方法，而该静态方法需要访问单例实例域，而由于静态方法只能访问静态域 ，因此单例实例域只能是静态域。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Singleton</span></span>&#123;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">static</span> Singleton instance = <span class="keyword">new</span> Singleton();</span><br><span class="line">  <span class="function"><span class="keyword">private</span> <span class="title">Singleton</span><span class="params">()</span></span>&#123;&#125; </span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Singleton <span class="title">getInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> instance;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>饿汉式的特点在于利用静态初始化器来静态构造单例对象。使用静态初始化器来初始化一个对象引用(Use static initializer to do the initializing stores)这也是《Java Concurrency in Practice》中提到的四种安全发布对象的方法之一。这种方法天然线程安全，因为它是在类初始化的时候创建唯一的单例实例的，而JVM在执行类初始化期间会尝试去获取一个锁，这样多个线程初始化同一个类的时候可以实现同步（对类初始化阶段JVM如何获取锁感兴趣的童鞋可以查阅<a href="http://www.infoq.com/cn/articles/double-checked-locking-with-delay-initialization?utm_source=infoq&amp;utm_campaign=user_page&amp;utm_medium=link" target="_blank" rel="noopener">双重检查锁定与延迟初始化</a>的后半部分内容）。</p>
+<blockquote>
+<p>回忆下四种安全发布对象的方法（关键在于对象的引用以及对象的状态必须同时对其他线程可见）：</p>
+<ol>
+<li>use static initializer to do the initializing stores(the underlying principle is somewhat the same as method 4)</li>
+<li>storing a reference to it into a volatile field or ActomicReference</li>
+<li>storing a reference to it into a final field of a properly constructed object</li>
+<li>storing a reference to it into a field that is properly guarded by a lock</li>
+</ol>
+</blockquote>
+<p>上面这种实现方法为了限制外界只能“读取”单例实例的引用，采取了“private域”+“暴露只读方法访问private域”的解决办法。但是如果保存单例实例的域是final的，则外界必定无法修改单例对象的引用，只能读取。于是也就没有必要将该域的权限设为private也没有必要暴露一个只读方法来帮助外界访问单例对象。这种新的饿汉式实现方式如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Singleton</span></span>&#123;</span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> Singleton instance = <span class="keyword">new</span> Singelton();</span><br><span class="line">  <span class="function"><span class="keyword">private</span> <span class="title">Singleton</span><span class="params">()</span></span>&#123;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="线程安全">线程安全</h4>
+<p>上面两种饿汉式的实现方式都是基于安全发布对象的第一种途径，因此在对象发布上是安全的。如果单例类的设计者为单例类添加更多的方法后，这里无法保证是否会出现一些线程不安全的访问方法。但是这不是我们讨论的重点。本文中所有的线程安全问题讨论都基于单例模式的最简单范式，而不考虑实际应用中的代码扩展。</p>
+<h3 id="2-懒汉式-lazy-initialization">2. 懒汉式(Lazy Initialization)</h3>
+<p>与饿汉式不同，懒汉式追求懒加载，即在需要使用单例对象的时候才创建单例对象。这样在某些情境下可以减少程序启动的时间，也可以最大程度的节省内存。当然，对应的弊端是，当第一次需要使用单例对象时可能需要花费更多时间来创建单例对象。</p>
+<p>同样的，懒汉式也遵循文章开头提到的两点设计要求：“限制创建+限制更改”，懒汉式的实现思路如下：</p>
+<p><strong>为了限制外界创建实例</strong>，懒汉式同样采用私有化构造器，并保证唯一实例在单例类内部创建。具体实现也是将单例对象保存在单例类的一个域中，采用lazy initialization在外界第一次读取单例对象时创建唯一的单例对象（即在暴露给外界的“只读”方法中创建单例对象，该“只读”方法的内部逻辑保证只有第一次读取单例对象时才会创建对象，并且保证只会创建一次）。</p>
+<p><strong>为了禁止外界更改单例类中保存的唯一单例对象的引用地址</strong>，懒汉式和饿汉式的第一种实现方式采用了同样的处理技巧：将该域的访问权限设置为private，再额外提供一个“只读”的方法来访问该域。同样的，由于唯一的实例保存在单例类的内部，并且在单例类内部被创建，外界没有办法创建单例对象，进而无法访问单例类的实例方法，于是这个暴露给外界的“只读”方法只能是静态方法，而该静态方法需要访问单例实例域，而由于静态方法只能访问静态域 ，因此单例实例域只能是静态域。</p>
+<p>懒汉式的初步的实现如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Singleton</span></span>&#123;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">static</span> Singleton instance;</span><br><span class="line">  <span class="keyword">private</span> Singleton&#123;&#125;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Singleton <span class="title">getInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(instance == <span class="keyword">null</span>)&#123;</span><br><span class="line">      instance = <span class="keyword">new</span> Singleton();</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">return</span> instance;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="线程安全-v2">线程安全</h4>
+<p>很明显这种实现不是线程安全的。首当其冲，getInstance()方法中出现了经典的race condition：第五行到第七行代码是典型的Check-Than-Act。线程A执行getInstance()时由于是第一次调用，instance此时还是null，执行完第五行代码时，系统切换执行线程B，此时线程B中看到的instance依然是null，于是继续执行创建单例对象，然后切换到线程A继续执行第六行代码，于是<strong>第二个单例对象</strong>被创建了，违反了单例模式的要求。</p>
+<p>然而，就算我们忽略Check-Than-Act的race condition，上面的代码依旧是线程不安全的。原因在于多线程共享对象时，一定要保证该对象安全发布，否则有些线程会看到未被完全构造的共享对象。这一条暂不展开分析，对于对象安全发布的问题在后文讲解双重检查锁定时会重点讲解。</p>
+<p>解决race condition以及对象不安全发布，都可以通过加锁来简单粗暴解决。比如下面这个就是利用隐式锁来实现线程安全懒汉式：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Singleton</span></span>&#123;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">static</span> Singleton instance;</span><br><span class="line">  <span class="keyword">private</span> Singleton&#123;&#125;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">synchronized</span> Singleton <span class="title">getInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(instance == <span class="keyword">null</span>)&#123;</span><br><span class="line">      instance = <span class="keyword">new</span> Singleton();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> instance;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>直接将getInstance方法改为同步方法。这样固然可以解决线程安全问题，但是线程安全和执行性能从来都是此长彼消的。本来上面的Check-Than-Act以及对象不安全发布的问题只会在第一次访问（创建）单例对象的时候发生，解决问题的关键在于同步第一次创建单例对象和第一次访问单例对象，现在我们却将每次访问单例对象的操作都同步了，虽然也解决了问题，却是杀鸡用牛刀，使得所有访问单例对象的操作都只能“串行”执行，极大地牺牲了效率。</p>
+<h3 id="3-双重检查锁定-double-check-locking-lazy-initialization">3. 双重检查锁定(Double-check Locking, Lazy Initialization)</h3>
+<p>DCL的出现主要是为了解决前面直接同步整个方法带来的低效率问题。它通过增加一个判断语句来决定何时需要加锁（只有第一次创建单例对象时需要同步），然后再将Check-Than-Act的race condition用同步块锁定。具体实现如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Singleton</span></span>&#123;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">static</span> Singleton instance;</span><br><span class="line">  <span class="function"><span class="keyword">private</span> <span class="title">Singleton</span><span class="params">()</span></span>&#123;&#125;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Singleton <span class="title">getInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(instance == <span class="keyword">null</span>)&#123;</span><br><span class="line">      <span class="keyword">synchronized</span>(Singleton<span class="class">.<span class="keyword">class</span>)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(instance == <span class="keyword">null</span>)&#123;</span><br><span class="line">          instance = <span class="keyword">new</span> Singleton();</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> instance;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>DCL的重点在于第5行到第9行，第5行是用来判断是否是第一次创建单例对象，如果是，则需要对race condition加锁。而这里由于还未有任何单例对象被创建，因此无法使用单例对象的隐式锁。于是第6-9行只能借用单例类的Class对象的隐式锁来保证Check-Then-Act的原子性。</p>
+<h4 id="线程安全-死磕dcl">线程安全（死磕DCL）</h4>
+<p>DCL看似是一种合理的单例模式实现，它既解决了Check-Than-Act的race condition，又避免了直接同步整个getInstance方法带来的性能效率问题，简直就是抖了个完美的机灵，权衡了同步和效率问题。但是，DCL在并发环境中却仍然会出现问题，DCL虽然解决了Check-Than-Act的竞态条件，却忽略了懒汉式的不安全发布问题以及可见性问题。</p>
+<p>主要有两种原因导致DCL线程不安全：</p>
+<p><font color="green" size="3px">1. 最老生常谈且容易理解的原因（指令重排序造成的对象不安全发布）</font></p>
+<p>当一个线程在创建单例对象时，其它线程可能看到未被完全构造的对象。这就是对象不安全发布造成的结果，对象引用和对象状态没有同时对其他线程可见。更确切地说，由于第8行代码  <font color="blue">instance = new Singleton();</font>  内部的指令可能被编译器或处理器重排序，导致其他线程可能在单例对象还未被完全构造时就得到了单例对象的地址。  <font color="blue">instance = new Singleton();</font>  对应的字节码如下</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">new           #3                  // class singleton/Singleton4</span><br><span class="line">dup</span><br><span class="line">invokespecial #4                  // Method &quot;&lt;init&gt;&quot;:()V</span><br><span class="line">putstatic     #2                  // Field instance:Lsingleton/Singleton4;</span><br></pre></td></tr></table></figure>
+<p>说白了也就是三个步骤：</p>
+<ol>
+<li>给单例对象分配空间</li>
+<li>调用构造器初始化单例对象</li>
+<li>将单例对象的地址赋值给instance引用</li>
+</ol>
+<p>但是由于第2步和第3步之间既不存在任何依赖关系又没有被插入任何内存屏障，在这种情况下，JMM允许重排序。于是当这两个步骤被重排序之后，问题就出现了，如下图所示</p>
+<p><img src="http://ojnnon64z.bkt.clouddn.com/%E3%80%90Design%20Pattern%E3%80%91Singleton%20%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F_1.png" alt></p>
+<p>线程A率先调用getInstance方法来创建单例对象，  <font color="blue">instance = new Singleton();</font>  内部指令invokespecial与putstatic重排序（即图中A2与A3步骤被重排序），当A3执行完以后，线程B开始执行getInstance方法，此时instance引用已经指向尚未初始化的单例对象地址，因此如果线程B此时读取单例对象的field将会得到默认值而不是构造方法初始化后的值。</p>
+<p>上面的解释看似很合理，但是却回避了一个小问题。前文提到过对象安全发布的四种方法，其中第四种说可以利用锁来实现安全发布，DCL明明符合要求在发布对象时用锁同步了，为什么仍然不能保证安全发布对象，使得对象引用和对象状态同时对其他线程可见？而且A1, A2, A3明明都在同步语句块内部，同步语句块所保护的操作应该具有原子性，为什么中途还会被线程B的B1,B2操作打断？</p>
+<p>原因其实很简单：<strong>DCL并没有对共享对象进行“合适地加锁“，它只对“写”共享对象的操作加锁，却没有对所有“读”共享对象的操作加锁，换言之，DCL仅仅保证了”写“共享对象的操作和另一个”写“共享对象的操作之间之间的互斥性（原子性），却无法保证”写“共享对象的操作和所有”读“共享对象的操作之间的互斥性（原子性）。 或者更直白些，B1，B2操作根本没有被加锁，它们根本不与A1, A2, A3互斥，当然可以打断A1, A2, A3的执行。其实这就是我们常说的data race，存在data race的代码就是不正确同步的代码</strong>。</p>
+<blockquote>
+<p>data race的定义如下：</p>
+<ol>
+<li>there is a write of a variable by one thread,</li>
+<li>there is a read of the same variable by another thread</li>
+<li>the write and read are not ordered by synchronization</li>
+</ol>
+<p>如果上面三条都满足，那么在这个变量上就存在data race</p>
+</blockquote>
+<p>对象安全发布的四种方法中的最后一种：“storing a reference to it into a field that is <strong>properly guarded</strong> by a lock”，注意这种安全发布方法要求保存单利对象引用的域被<strong>合适地加锁</strong>。何谓对对象状态“合适地加锁”？这里引用《Java Concurrency In Practice》中的两段话来解释：</p>
+<blockquote>
+<p>For each mutable state variable that may be accessed by more than one thread, all accesses to that variable must be performed with the same lock held. In this case, we say that the variable is guarded by that lock.</p>
+</blockquote>
+<blockquote>
+<p>Locking is not just about mutual exclusion; it is also about memory visibility. To ensure that all threads see the most up to date values of shared mutable variables, the reading and writing threads must synchronize on a common lock.</p>
+</blockquote>
+<p><strong>简言之，对共享对象状态合适地加锁，不仅需要对所有“写”该对象状态的操作加锁，还需要对所有“读”该对象状态的操作加锁</strong>。之所以“合适地加锁”可以保证对象安全发布，原因在于对所有“写”和“读”该对象状态的操作加锁可以保证：</p>
+<ol>
+<li>一个线程中”读“ 共享对象的操作对于另一个线程中”读”共享对象的操作具有互斥性（原子性）</li>
+<li>一个线程中”读“ 共享对象的操作对于另一个线程中”写”共享对象的操作具有互斥性（原子性）</li>
+<li>一个线程中”写“ 共享对象的操作对于另一个线程中”写”共享对象的操作具有互斥性（原子性）</li>
+</ol>
+<p>这样，根据第二条和第三条，我们可以推出，“合适地加锁”可以保证一个线程还在创建共享对象时（”写”共享对象的操作），另一个线程不能同时访问未创建好的共享对象（”读”或“写”共享对象的操作），因此可以保证共享对象的安全发布。然而，我们在平时写程序时却经常进入一个误区：只有“写”共享对象的操作才需要加锁。DCL正是犯了这个错误，只对A2，A3等“写”共享对象的操作加锁，而没有对B1,B2等“读”共享对象的操作加锁，无法满足第二条原子性，“写”共享对象的操作（如A2, A3）对于另一个线程“读”共享对象的操作（如B1，B2）并不具备原子性，这也合理解释了之前的问题：“A1, A2, A3明明都在同步语句块内部，同步语句块所保护的操作应该具有原子性，为什么中途还会被线程B的B1,B2操作打断”。DCL中，一个线程还在创建共享对象时（”写”共享对象的操作），另一个线程可以同时访问未创建好的共享对象（”读”共享对象的操作），因而共享对象不能保证安全发布。</p>
+<blockquote>
+<p>这里额外补充一个对于<strong>java多线程环境下</strong>原子性(不是指CPU层面的原子性)的定义：原子性（又被称为互斥性）是一种相对性的概念而非一种绝对的定义，我们无法在没有任何对比，没有任何参照系的情况下孤立地判断某个操作是否是原子操作。一个操作A只有在另一个访问共享状态的操作B的观察下才能判断该操作是否是原子的。因此，一个操作可能对于某些操作是原子的，但是对于另一些操作就可能是非原子的了。具体要看程序中如何加锁。更多关于原子性的讨论可以参见另一篇博文<a href>【Java Primer - Concurrency】Thread Safety &amp; Actomicity &amp; Visibility &amp; Object  Sharing</a>中的Actomicity的分析。</p>
+</blockquote>
+<p><font color="green" size="3px">2. 较为隐蔽的原因（指令重排序造成方法返回失效值）</font></p>
+<p>DCL除了不安全发布对象之外，还有可能因为指令重排造成其他问题。为了方便阅读，这里再贴一次DCL的代码</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Singleton</span></span>&#123;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">static</span> Singleton instance;</span><br><span class="line">  <span class="function"><span class="keyword">private</span> <span class="title">Singleton</span><span class="params">()</span></span>&#123;&#125;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Singleton <span class="title">getInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(instance == <span class="keyword">null</span>)&#123;<span class="comment">//read1</span></span><br><span class="line">      <span class="keyword">synchronized</span>(Singleton<span class="class">.<span class="keyword">class</span>)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(instance == <span class="keyword">null</span>)&#123;<span class="comment">//read2</span></span><br><span class="line">          instance = <span class="keyword">new</span> Singleton();<span class="comment">//write1</span></span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> instance;<span class="comment">//read3</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>很多人可能会忽略，第5行代码和第12行代码可能会被重排序。</p>
+<p>啥？这可是条件判断语句和返回语句，这也能重排序？Are you kidding me?</p>
+<p>还是直接看字节码，第5行代码“if(instance == null){”对应的字节码</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">0: getstatic     #2                  // Field instance:Lsingleton/Singleton;</span><br><span class="line"><span class="number">3</span>: ifnonnull     <span class="number">37</span></span><br></pre></td></tr></table></figure>
+<p>第5行代码实际上就两个指令：读instance引用 + 判断跳转</p>
+<p>第12行代码“return instance;”对应的字节码</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">37: getstatic     #2                  // Field instance:Lsingleton/Singleton;</span><br><span class="line"><span class="number">40</span>: areturn</span><br></pre></td></tr></table></figure>
+<p>类似地，第12行代码也只有两个指令：读instance引用 + 返回</p>
+<p>第5行和第12行都涉及到读instance引用的操作，这两个操作不存在任何数据依赖性（不熟悉“数据依赖性”的童鞋请参见<a href="http://www.infoq.com/cn/articles/java-memory-model-2" target="_blank" rel="noopener">http://www.infoq.com/cn/articles/java-memory-model-2</a>），因此这两个读操作可以被重排序。</p>
+<p>那么DCL的getInstance方法重排序后可能等效于：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Singleton <span class="title">getInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line">   Singleton tmp = instance; <span class="comment">//原本第12行中的读instance引用的操作被重排序到原来第5行代码之前</span></span><br><span class="line">   <span class="keyword">if</span>(instance == <span class="keyword">null</span>)&#123;</span><br><span class="line">     <span class="keyword">synchronized</span>(Singleton<span class="class">.<span class="keyword">class</span>)</span>&#123;</span><br><span class="line">       <span class="keyword">if</span>(instance == <span class="keyword">null</span>)&#123;</span><br><span class="line">         instance = <span class="keyword">new</span> Singleton();</span><br><span class="line">         tmp = instance;</span><br><span class="line">       &#125;</span><br><span class="line">     &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> tmp;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这样遇到下面这种情况就会出现线程安全问题：</p>
+<p>线程X先执行getInstance()，此时instance还是null，刚赋值给tmp后，切换到线程Y执行getInstance方法，执行完后再切回线程X。但是此时instance已经不再是null了，</p>
+<p>尽管这里说有两种原因造成DCL线程不安全，但是究其根本，这两种原因都是由于指令重排序导致的问题。DCL专注于解决共享对象的竞态条件，保证了Check-Then-Act对于其它线程“写”共享对象的原子性，却忽略了     “读”原子性</p>
+<p>指令重排序带来的。第一种由于  <font color="blue">instance = new Singleton();</font>  内部指令重排序造成对象不安全发布，第二种由于互不依赖的load指令重排序造成返回失效值。</p>
+<p>针对上面第一种原因（不安全发布的问题），有人想出了DCL的加强版，姑且称其为Double Checked and Double Locking，似乎可以保证对象安全发布。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Singleton</span></span>&#123;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">static</span> Singleton instance;</span><br><span class="line">  <span class="function"><span class="keyword">private</span> <span class="title">Singleton</span><span class="params">()</span></span>&#123;&#125;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> Singleton <span class="title">getInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//第一次checked</span></span><br><span class="line">    <span class="keyword">if</span>(instance == <span class="keyword">null</span>)&#123;</span><br><span class="line">	<span class="comment">//第一次locking</span></span><br><span class="line">      <span class="keyword">synchronized</span>(Singleton<span class="class">.<span class="keyword">class</span>)</span>&#123;</span><br><span class="line">        Singleton tmp = instance;</span><br><span class="line">        <span class="comment">//第二次checked</span></span><br><span class="line">        <span class="keyword">if</span>(tmp == <span class="keyword">null</span>)&#123;</span><br><span class="line">          <span class="comment">//第二次locking</span></span><br><span class="line">          <span class="keyword">synchronized</span>(Singleton<span class="class">.<span class="keyword">class</span>)</span>&#123;</span><br><span class="line">         	 tmp = <span class="keyword">new</span> Singleton();</span><br><span class="line">			&#125;</span><br><span class="line">          instance = tmp;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> instance;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这种方法看似巧妙运用了一个临时变量tmp</p>
+<p>想要杜绝指令重排序造成的线程安全问题，内存屏障和锁以及final变量都是可能的解决办法</p>
+<p><a href="http://www.infoq.com/cn/articles/double-checked-locking-with-delay-initialization?utm_source=infoq&amp;utm_campaign=user_page&amp;utm_medium=link" target="_blank" rel="noopener">http://www.infoq.com/cn/articles/double-checked-locking-with-delay-initialization?utm_source=infoq&amp;utm_campaign=user_page&amp;utm_medium=link</a></p>
+<p><a href="http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html" target="_blank" rel="noopener">http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html</a></p>
+<p>两种结局方案： volatile  vs double checked and double locking</p>
+<p><a href="http://www.cnblogs.com/coffee/archive/2011/12/05/inside-java-singleton.html#out-of-orderWrites" target="_blank" rel="noopener">http://www.cnblogs.com/coffee/archive/2011/12/05/inside-java-singleton.html#out-of-orderWrites</a></p>
+<p>将instance标记为volatile的变量可以完全解决上面的困境（JDK 5.0以后才能放心使用volatile来解决DCL的问题），如果对volatile的实现原理不太了解，可以移步另一篇博文<a href>【Java Primer】从volatile到指令重排序</a></p>
+<p>volatile可以禁止局部重排序，解决了DCL的两种困境</p>
+<h3 id="4-内部类-nested-initialization-lazy-initialization">4. 内部类(Nested Initialization, Lazy Initialization)</h3>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Singleton</span></span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">private</span> <span class="title">Singleton</span><span class="params">()</span></span>&#123;&#125;</span><br><span class="line">  <span class="function"><span class="keyword">static</span> class <span class="title">InnerSingleton</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> Singleton instance = <span class="keyword">new</span> Singleton();</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Singleton <span class="title">getInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> InnerSingleton.instance;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="5-枚举法-enum-based-singleton">5. 枚举法(Enum Based Singleton)</h3>
+<p><a href="http://codebalance.blogspot.tw/2010/08/singleton-pattern-and-beyond.html" target="_blank" rel="noopener">http://codebalance.blogspot.tw/2010/08/singleton-pattern-and-beyond.html</a></p>
+<h2 id="线程安全-v3">线程安全</h2>
+<p>前面已经对每种单例模式的实现方法进行了线程安全分析，在这里做一个总结的。</p>
+<p>适用情况：</p>
+<!---
+## 破解方法
+
+除了枚举实现的单例模式，其他的四种实现方法都可以被破解。所谓破解也就是使得应用中出现单例类两个或两个以上的对象。主要有反射破解，序列化和克隆破解这三种破解方法。
+
+## 垃圾回收
+
+http://blog.csdn.net/zhengzhb/article/details/7331354
+
+https://www.zhihu.com/question/51014592
+
+## 运行性能
+
+-->
+<p>本来这篇文章的初衷是总结单例模式的实现，但是由于单例模式的实现方式有多种，并且涉及到了线程安全的问题，因此进行了较多的发散讨论。</p>
+<h2 id="reference">Reference</h2>
+<p><a href="http://www.infoq.com/cn/articles/double-checked-locking-with-delay-initialization?utm_source=infoq&amp;utm_campaign=user_page&amp;utm_medium=link" target="_blank" rel="noopener">http://www.infoq.com/cn/articles/double-checked-locking-with-delay-initialization?utm_source=infoq&amp;utm_campaign=user_page&amp;utm_medium=link</a></p>
+<p><a href="http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html" target="_blank" rel="noopener">http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html</a></p>
+<p><a href="http://spiritfrog.iteye.com/blog/214986" target="_blank" rel="noopener">http://spiritfrog.iteye.com/blog/214986</a></p>
+<p><a href="https://yq.aliyun.com/articles/11333" target="_blank" rel="noopener">https://yq.aliyun.com/articles/11333</a></p>
+<p><a href="http://blog.csdn.net/zhengzhb/article/details/7331369" target="_blank" rel="noopener">http://blog.csdn.net/zhengzhb/article/details/7331369</a></p>
+<p><a href="http://blog.csdn.net/zhengzhb/article/details/7331354" target="_blank" rel="noopener">http://blog.csdn.net/zhengzhb/article/details/7331354</a></p>
+<p><a href="http://ifeve.com/from-singleton-happens-before/" target="_blank" rel="noopener">http://ifeve.com/from-singleton-happens-before/</a></p>
+<p><a href="http://codebalance.blogspot.tw/2010/08/singleton-pattern-and-beyond.html" target="_blank" rel="noopener">http://codebalance.blogspot.tw/2010/08/singleton-pattern-and-beyond.html</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/25733866" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/25733866</a></p>
+]]></content>
+      <categories>
+        <category>Design Pattern</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>Design Pattern</tag>
+        <tag>Concurrency</tag>
         <tag>JVM</tag>
       </tags>
   </entry>
